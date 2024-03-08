@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="es">
+<div class="container">
+<header>
+  <title>&#128302; Design of Shadows</title>
+  <meta name="author" content="Rocío Córdova"/>
+  <meta charset="utf-8">
+  <meta name="copyright" content="2021 OK">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <script src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</header>
+<body>
+<!--MENÚ-->
+<div class="navbar">
+    <a class="rune1" href="desingofshadows.html">
+      <svg class="rune1" width="40px" height="45px" style="fill: #D0BE9C"; enable-background:new 0 0 600 600; version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       viewBox="0 0 600 600" xml:space="preserve">
+       <path d="M551,51.8c-3.3-14.5-7.5-27.4-11.9-38.7c-4-2-9.7-4.3-16.8-5.4c-2.2-0.3-9.9-1.4-19.9,0.3c-56.8,9.7-125.4,43.5-125.4,43.5
+       c-36.3,17.9-64.9,32.2-81.5,40.6c-0.6,0-1.1,0-1.7,0c-30.9-16.3-57.6-29.3-78-38.9c0,0-57.6-27.1-132.6-43.8
+       C77.6,8.2,66.7,6,54.1,9.6c-5.8,1.6-10.3,4-13.2,5.8c-5.3,12.6-10.6,27.8-14.6,45.3c-5.6,24.7-7.1,46.6-6.9,63.9
+       c17.1,12.8,32.2,22.4,43.6,29.1c13.2,7.8,30.1,17,52.1,21c11.9,2.2,20.7,2,25.7-3.3c2.9-3.1,3.7-7.1,4-10c-9.4-2-26.3-7-43.4-20.1
+       c-19.1-14.7-28.4-32-32.5-41c12.2-4,54.2-16.2,101.1,2.6c32.9,13.2,52.4,35.2,61,46.3c0,0.5,0,1,0,1.5c-16,18.2-32.9,39.5-49.6,63.9
+       c-24.2,35.7-42.1,69.9-55.3,99.7c0,0.5,0,0.9,0,1.4c18.7,43,41.9,90.2,70.9,139.9c30.7,52.6,62.3,98.3,92.2,137.3c1,0,2,0,3,0
+       c31.1-38.4,64.3-84.1,96.6-137.3c29.1-48.1,52.4-93.9,70.9-135.4c0-0.4,0-0.8,0-1.2c-11.9-30.4-28.9-66.3-53.2-104.1
+       c-18.3-28.4-37.1-52.3-54.6-72.1c0-0.3,0-0.7,0-1c11-6.2,27-15,46.9-24.7c37.7-18.5,48.4-20.4,53.6-21.2c11.3-1.6,32-2.3,58.7,9.6
+       c0,1.3,0,2.6,0,3.9c-1.6,3.3-4.1,7.9-7.7,13c-5.5,7.8-11.8,14.1-27.9,26.6c-8.1,6.3-18.5,14-31,22.3c0,1.3,0,2.5,0,3.8
+       c15.2-0.8,38-3.7,63.5-14.3c21.9-9.1,38.2-20.7,49-29.7C558.6,110.1,558,82.7,551,51.8z M386.5,279.7c12.6,17.9,19.8,34.8,24,46.4
+       c0,0.8,0,1.5,0,2.3c-6.4,10.1-15.5,23.4-27.1,38.5c-10,12.9-22.1,28.5-40.2,45.9c-11.7,11.3-28.3,25.7-50.1,40.2c-0.7,0-1.4,0-2.1,0
+       c-20.7-14.6-45-34.4-69.4-60.5c-20.2-21.7-36-42.9-48.1-61.5c0-0.9,0-1.8,0-2.7c9.2-19.8,23.6-45.3,45.7-71.7
+       c23.8-28.3,48.4-47.8,67.2-60.5h4.5c19.3,12.4,34.4,24.1,45.1,33C355.7,245.2,371.4,258.3,386.5,279.7z"/>
+     </svg>
+    </a>
+    <a class="titulo" href="desingofshadows.html">
+     <h1>Desing of Shadows</h1>
+     <h2>Diseño Editorial</h2>
+    </a>
+    <a class="boton" href="#I">Inicio</a>
+    <div class="dropdown">
+      <button class="dropbtn" onmouseenter="myFunction()"><a href="#S">Saga +</a>
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a class="boton" href="#TMI">The Mortal Instruments</a>
+        <a class="boton" href="#TID">The Infernal Devices</a>
+        <a class="boton" href="#TDA">The Dark Artificies</a>
+        <a class="boton" href="#TEC">The Eldest Curses</a>
+        <a class="boton" href="#TLH">The Last Hours</a>
+        <a class="boton" href="#NG">Novelas Gráficas</a>
+        <a class="boton" href="#Com">Complementarios</a>
+        <a class="boton" href="#Ex">Extras</a>
+      </div>
+      </div> 
+    <a class="boton" href="#SC">Creadores</a>
+    <a class="boton" href="#Con">Contacto</a>
+</div>
+<!--BANNER-->
+  <div class="banner">
+  <a href="desingofshadows.html">
+  <img src="img/banner.jpg" alt="Banner, fotomontaje de portadas">
+  <div class="middle">
+    <div class="text-banner">DESING OF SHADOWS</div>
+  </div>
+  </a>
+  </div>
+<!--INICIO-->
+<div class="I" id="I"></div>
+  <div class="text-i">
+  <h3>BIENVENIDXS A DESING OF SHADOWS</h3>
+  <p>Desing of Shadows es una web especializada en el diseño editorial de Las Crónicas de Cazadores de Sombras escritos por Cassandra Clare y públicados por la editorial Simon & Schuster en Estados Unidos, y en latinoamerica por Editorial Planeta. Aquí encontrarás las diferentes versiones de cada libro, información de sus creadores y un vistazo al material extra creado para esta saga de libros.
+  </p>
+  </div>
+  <div class="inicio1"><img src="img/inicio1.jpeg" alt="Libros de Cazadores de Sombras."></div>
+  <div class="inicio2"><img src="img/inicio2.jpeg" alt="Libros de Cazadores de Sombras."></div>
+  <div class="inicio3"><img src="img/inicio3.jpeg" alt="Libros de Cazadores de Sombras."></div>
+<!--SAGAS-->
+<div class="MS" id="S"></div>
+<div class="text-ms">
+  <h3>MUNDO DE SOMBRAS</h3>
+    <p>La serie de libros trata sobre un mundo oculto paralelo al nuestro donde existen los nefilim, guerreros mitad angel y mitad humanos, es decir, Cazadores de Sombras, ellos se encargan de proteger a la tierra de los demonios y mantener a todos los Subterráneos -vampiros, hombres lobos, hadas y brujos- bajo el orden de los Acuerdos y la Clave.
+      <br>
+      Contiene una saga de seis partes y dos trilogías ya públicadas, dos trilogías sin terminar, y una que se públicará más adelante que dará cierre a toda la crónica, además de libros complementarios, material extra y adaptaciones gráficas.
+    </p>
+  </div>
+  <div class="img-ms"><img src="img/ms-words-sh.png" alt="La palabra Shadowhunters rellena de las portadas de los libros."></div>
+  <div class="text-ms1">
+    <div class="hidden">
+      <p><i>Todas las historias son ciertas. Todas las historias son ciertas. Todas las historias son ciertas. Todas las historias son ciertas.
+      </i>
+      </p>
+    </div>
+    </div>
+<!--TMI-->
+<div class="TMI" id="TMI"></div>
+  <div class="text-tmi">
+    <h3>THE MORTAL INSTRUMENTS</h3>
+    <p>Cazadores de Sombras (en español), saga principal de seis libros, el primero publicado originalmente en Estados Unidos el 27 de marzo de 2007.
+      <br>
+      Clary Fray es una adolescente neoyorkina que para su cumpleaños va al Club Pandemónium con su mejor amigo, pero nunca creyó que vería un asesinato. Mucho menos hecho por tres adolescentes con el cuerpo repleto de extraños tatuajes. Fue la primera vez que Clary se cruzó con el Mundo de las Sombras y con los nefilim, también fue la primera vez que se encontró con Jace Wayland. En tan solo 24 horas, Clary es arrastrada al peligroso mundo de Jace, es atacada por un demonio, y su madre desaparece. Pero, ¿por qué los demonios están interesados en una simple mundana como Clary? ¿Por qué de repente ha obtenido la Visión?
+    </p>
+  </div>
+  <div class="slideshow-container" id="c1">
+    <div class="mySlides1">
+      <img src="img/tmi-pe-cover.jpg" style="width:100%" alt="Portadas de las primeras ediciones de The Mortal Instruments.">
+    </div>
+  
+    <div class="mySlides1">
+      <img src="img/tmi-pe-boxset.jpg" style="width:100%" alt="Box set de las primeras ediciones de The Mortal Instruments.">
+    </div>
+  
+    <div class="mySlides1">
+      <img src="img/tmi-re-cover.jpg" style="width:100%" alt="Portadas de las reediciones de The Mortal Instruments.">
+    </div>
+
+    <div class="mySlides1">
+    <img src="img/tmi-re-boxset.jpg" style="width:100%" alt="Box set de las reediciones de The Mortal Instruments.">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+
+</div>
+
+<!--TID-->
+<div class="TID" id="TID"></div>
+  <div class="text-tid">
+    <h3>THE INFERNAL DEVICES</h3>
+    <p>Cazadores de Sombras: Los Origenes (en español), trilogía que empezó a publicarse originalmente en Estados Unidos el 8 de marzo de 2016.
+      <br>
+      Tessa Gray es invitada por su hermano a vivir con él tras la muerte de su tía. Para ello, se dirige a Londres, donde es raptada por una organización secreta llamada el club Pandemonium, y rescatada por los cazadores de sombras. Pronto Tessa verá su corazón dividido entre Jem, cuya frágil belleza oculta un oscuro secreto, Y Will, cuya hiriente ironía y cambios de humor constantes la mantienen a distancia, mientras los tres intentan salvar el mundo de aquel llamado el Magíster.
+    </p>
+  </div>
+  <div class="slideshow-container" id="c2">
+    <div class="mySlides2">
+      <img src="img/tid-pe-cover.jpg" style="width:100%" alt="Portadas de las primeras ediciones de The Infernal Devices.">
+    </div>
+  
+    <div class="mySlides2">
+      <img src="img/tid-pe-lomos.jpg" style="width:100%" alt="Lomos de las primeras ediciones de The Infernal Devices.">
+    </div>
+  
+    <div class="mySlides2">
+      <img src="img/tid-re-cover.jpg" style="width:100%" alt="Portadas de las reediciones de The Infernal Devices.">
+    </div>
+
+    <div class="mySlides2">
+      <img src="img/tid-re-lomos.jpg" style="width:100%" alt="Lomos de las reediciones de The Infernal Devices.">
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+<!--TDA-->
+<div class="TDA" id="TDA"></div>
+<div class="text-tda">
+  <h3>THE DARK ARTIFICIES</h3>
+  <p>Cazadores de Sombras: Renacimiento (en español), trilogía que empezó a publicarse originalmente en Estados Unidos el 21 de agosto de 2010.
+  <br>
+    Han pasado cinco años desde el final de Ciudad del Fuego Celestial (TMI 6). Los padres de la cazadora de sombras Emma Carstairs fueron asesinados y desde entonces su hija no ha dejado de buscar al culpable. Ella, junto con su parabatai (guerreros vinculados por un juramento que unen sus almas), Julian, empieza a investigar una demoníaca trama que se extiende por los lugares más glamurosos: desde Los Ángeles hasta las playas de Santa Mónica... En la trama se ve envuelto también un hechicero fascinante, Malcolm, que se empeña en recuperar a Anabel, su amada muerta. Además, Emma no puede evitar la poderosísima atracción que siente hacia su compañero, una relación que las leyes de los cazadores prohíben.
+  </p>
+</div>
+<div class="slideshow-container" id="c3">
+  <div class="mySlides3">
+    <img src="img/tda-pe-cover.jpg" style="width:100%" alt="Portadas de las primeras ediciones de The Dark Artificies.">
+  </div>
+
+  <div class="mySlides3">
+    <img src="img/tda-pe-lomos.jpg" style="width:100%" alt="Box set de las primeras ediciones de The Dark Artificies.">
+  </div>
+
+  <div class="mySlides3">
+    <img src="img/tda-pe-lomos1.jpg" style="width:100%" alt="Lomos de las primeras ediciones de The Dark Artificies.">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+</div>
+<!--TEC-->
+<div class="TEC" id="TEC"></div>
+<div class="text-tec">
+  <h3>THE ELDEST CURSES</h3>
+  <p>Cazadores de Sombras: Las Maldiciones Ancestrales (en español), trilogía que empezó a publicarse originalmente en Estados Unidos el 9 abril de 2019.
+    <br>Magnus Bane, un Gran Brujo centenario, ha tomado posesión de una de las más grandes reliquias del mundo sobrenatural, un poderoso libro de hechizos de magia oscura conocido como el Libro de lo Blanco y hay muchos que quieren reclamarlo para si mismos. Luego de la Guerra Mortal en donde los cazadores de sombras parte humanos, parte ángeles se unieron a los subterráneos parte humano, parte demonio para luchar contra la incursión de un ejército de demonios, Magnus y su nuevo amante, el mortal cazador de sombras Alec Lightwood, celebran su supervivencia y victoria escapando del campo de batalla sobrenatural de la ciudad de Nueva York al irse de gira por el mundo, pero el mundo no los dejará en paz.
+  </p>
+</div>
+<div class="slideshow-container" id="c4">
+  <div class="mySlides4">
+    <img src="img/tec-v1-cover.jpg" style="width:100%" alt="Ediciones versión 1 de The Eldest Curses.">
+  </div>
+
+  <div class="mySlides4">
+    <img src="img/tec-v2-cover.jpg" style="width:100%" alt="Ediciones versión 2 de The Eldest Curses.">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+</div>
+<!--TLH-->
+<div class="TLH" id="TLH"></div>
+<div class="text-tlh">
+  <h3>THE LAST HOURS</h3>
+  <p>Cazadores de Sombras: Las Últimas Horas (en español), trilogía que empezó a publicarse originalmente en Estados Unidos el 3 de marzo de 2020.
+  <br>El padre de Cordelia Carstairs, una joven cazadora de sombras, es acusado de un terrible crimen, por lo que ella, su hermano y madre viajan al Londres eduardiano con la esperanza de evitar la ruina de la familia. Pronto, Cordelia se encuentra con sus amigos de la infancia James y Lucie Herondale -su futura parabatai- y se ve envuelta en su mundo de salones de baile brillantes, tareas secretas y salones sobrenaturales, donde el submundo convive. Todo el tiempo, ella debe ocultar su amor secreto por James, quien anhela el amor de otra. Sin embargo, la nueva vida de Cordelia se desmorona cuando una impactante serie de ataques demoníacos devastan Londres que durante años ha habido paz. Estos monstruos no se parecen en nada a los cazadores de sombras que han luchado antes: estos demonios caminan a la luz del día, golpean a los incautos con un veneno incurable y parecen imposibles de matar. Londres queda inmediatamente en cuarentena. Atrapados en la ciudad, Cordelia y sus amigos descubren que su propia conexión con un oscuro legado les ha otorgado poderes increíbles, y fuerzan una elección brutal que revelará el verdadero precio cruel de ser un héroe.
+  </p>
+</div>
+<div class="slideshow-container" id="c5">
+  <div class="mySlides5">
+    <img src="img/tlh-pe-cover.jpg" style="width:100%" alt="Portadas de las primeras ediciones de The Last Hours.">
+  </div>
+
+  <div class="mySlides5">
+    <img src="img/tlh-pe-lomos.jpg" style="width:100%" alt="Lomos alternativos de las primeras ediciones de The Last Hours.">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+</div>
+<!--NO. GRÁFICAS-->
+<div class="NG" id="NG"></div>
+<div class="text-ng">
+  <h3>NOVELAS GRÁFICAS</h3>
+  <h4>City of Bones: Graphic Novel</h4>
+  <p>Es la adaptación del primer libro de The Mortal Instruments, Ciudad de Hueso (en español). Escrita por Cassandra Clare, adaptada por Mike Raicht e ilustrada por Nicole Virella y Chris Meeks, bajo la editorial Th3rd World. Se publicó entre 2012-2013, pero actualmente está discontinuada y nunca llegó a una edición impresa, solo en formato e-book.
+  </p>
+  <h4>The Infernal Devices: Manga</h4>
+  <p>Fue escrita por Cassandra Clare e ilustrada por HyeKyung Baek, bajo la editorial Yen Press. Son tres volumenes, cada uno equivale a uno de la trilogía original. El primero se publicó en inglés el 30 de octubre de 2012. 
+  </p>
+  <h4>The Mortal Instruments: Graphic Novel</h4>
+  <p>Fue escrita por Cassandra Clare e ilustrada por Cassandra Jean, bajo la editorial Yen Press. Cada dos volumenes equivale a un libro de la saga original, es decir, serán doce volumenes en total. El primero se publicó en inglés el 7 de noviembre de 2017.
+  </p>
+</div>
+<div class="slideshow-container" id="c6">
+  <div class="mySlides6">
+    <img src="img/ng-cb-cover.jpg" style="width:100%" alt="Portadas de la novela gráfica de Ciudad de Hueso.">
+  </div>
+
+  <div class="mySlides6">
+    <img src="img/ng-tid-cover.jpg" style="width:100%" alt="Portadas de los mangas de The Infernal Devices.">
+  </div>
+
+  <div class="mySlides6">
+    <img src="img/ng-tmi-cover.jpg" style="width:100%" alt="Portadas de las novelas gráficas de The Mortal Instruments.">
+  </div>
+
+  <div class="mySlides6">
+    <img src="img/ng-tmi-inside.jpg" style="width:100%" alt="Vistazo al interior de una novela gráfica de The Mortal Instruments.">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+</div>
+<!--COMPLEMENTARIOS-->
+<div class="Com" id="Com"></div>
+<div class="text-com">
+  <h3>COMPLEMENTARIOS</h3>
+  <h4>The Magnus Bane Chronicles</h4>
+  <p>Las Crónicas de Magnus Bane (en español), es una compilación de once (diez originales y una exclusiva) historias cortas y adicionales sobre el Gran Brujo de Brooklyn, Magnus Bane, escritas por Cassandra Clare, Sarah Rees Brennan y Maureen Johnson. La primera fue publicada en formato e-book en abril del 2013. Fue impreso el 11 de noviembre del 2014 en inglés 
+  </p>
+  <h4>Tales from the Shadowhunter Academy</h4>
+  <p>Cuentos de la Academia de Cazadores de Sombras (en español), es una compilación de diez historias cortas, escritas por Cassandra Clare, Sarah Rees Brennan, Robin Wasserman y Maureen Johnson. La serie se ubica después de Ciudad del Fuego Celestial (TMI 6), pero antes de Lady Midnight (TDA 1), y sigue el camino que recorre Simon Lewis para convertirse en un cazador de sombras desde que entra a estudiar a la Academia en Idris, hasta su Ascenso. La primera fue publicada en febrero de 2015 y la versión impresa fue publicada el 15 de noviembre de 2016.
+  </p>
+  <h4>Ghosts of the Shadow Market</h4>
+  <p>Fantasmas del Mercado de Sombras (en español), es una compilación de diez historias cortas, escritas por Cassandra Clare, Maureen Johnson, Robin Wasserman, Sarah Rees Brennan y Kelly Link. Las historias se centrarán en los Mercados de Sombras del Mundo de las Sombras, con todas las historias presentando a Jem Carstairs pero cada una de ellas enfocándose en un personaje diferente. Las primeras ocho publicadas en formato e-book desde el 10 de abril de 2018 y de forma mensual, y las última dos historias fueron publicadas exclusivamente en la edición impresa el 4 de junio de 2019.
+  </p>
+</div>
+<div class="slideshow-container" id="c7">
+  <div class="mySlides7">
+    <img src="img/com.jpg" style="width:100%" alt="Boxset de los libros complementarios.">
+  </div>
+
+  <div class="mySlides7">
+    <img src="img/com-mb.jpg" style="width:100%" alt="Libro de Las Crónicas de Magnus Bane.">
+  </div>
+
+  <div class="mySlides7">
+    <img src="img/com-sa.jpg" style="width:100%" alt="Libro de Cuentos de la Academia de Cazadores de Sombras.">
+  </div>
+
+  <div class="mySlides7">
+    <img src="img/com-gsm.jpg" style="width:100%" alt="Libro de Fantasmas del Mercado de Sombras.">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
+</div>
+<!--EXTRAS-->
+<div class="Ex" id="Ex"></div>
+<div class="text-ex">
+  <h3>EXTRAS</h3>
+  <h4>The Shadowhunters Codex</h4>
+  <p>El Códice de los Cazadores de Sombras (en español) es la guía de los nefilim en Las Crónicas de Cazadores de Sombras. Escrito por Cassandra Clare y Joshua Lewis con ilustraciones de Cliff Nielsen, Rebecca Guay, Jim Nelson, Cassandra Jean, entre otros. Publicado el 29 de octubre de 2013, bajo la editorial Margaret K. McElderry. Contiene anotaciones de los personajes Clary Fray, Simon Lewis y Jace Wayland (TMI).
+  </p>
+  <h4>Shadowhunters and Downworlders: A Mortal Instruments Reader</h4>
+  <p>Cazadores de sombras y subterráneos: La guía esencial (en español), es un libro escrito por muchos escritores en el que se recopilan ensayos de la visión y temas varios de los escritores sobre el mundo que ha creado Cassandra Clare en Cazadores de Sombras y Los Orígenes, el cuál está editado por la misma Cassandra Clare, incluyendo la introducción global del libro y de cada ensayo escritos por ella misma. Fue publicado el 29 de enero de 2013, bajo la editorial Smart Pop.
+  </p>
+  <h4>An Illustrated History of Notable Shadowhunters & Denizens of Downworld</h4>
+  <p>La Historia de Notables Cazadores de Sombras y Habitantes del Submundo es un libro de colección de obras de arte hecho por Cassandra Jean. Publicado el 18 de febrero de 2016, bajo la editorial Simon & Schuster. Inspirado por el lenguaje victoriano de flores, este volumen de tapa dura cuenta con personajes de Las Crónicas de Cazadores de Sombras, cada uno con un retrato bellamente ilustrado, una sección de detalles nunca antes conocidos y notas sobre los personajes. En 2019 comenzaron a salir nuevas ilustraciones que no estaban incluidas en la primera publicación. Se sacará una nueva edición con todos los personajes que antes no estaban ilustrados.
+  </p>
+</div>
+<div class="slideshow-container" id="c8">
+  <div class="mySlides8">
+    <img src="img/ex-codex.jpg" style="width:100%" alt="Libro del Códice de los Cazadores de Sombras.">
+  </div>
+
+  <div class="mySlides8">
+    <img src="img/ex-codex-inside.jpg" style="width:100%" alt="Libro del Códice de los Cazadores de Sombras.">
+  </div>
+
+  <div class="mySlides8">
+    <img src="img/ex-shdo.jpg" style="width:100%" alt="Libro de Cazadores de sombras y subterráneos: La guía esencial.">
+  </div>
+
+  <div class="mySlides8">
+    <img src="img/ex-ilhnsh.png" style="width:100%" alt="Libro de La Historia de Notables Cazadores de Sombras y Habitantes del Submundo.">
+  </div>
+
+  <div class="mySlides8">
+    <img src="img/ex-ilhnsh-inside.jpg" style="width:100%" alt="Libro de La Historia de Notables Cazadores de Sombras y Habitantes del Submundo.">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 7)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 7)">&#10095;</a>
+</div>
+<!--SOBRE-->
+<div class="SC" id="SC"></div>
+  <h3 class="bio">SOBRE LOS CREADORES PRINCIPALES</h3>
+<div class="img-bio1">
+  <img src="img/sc-cc.jpeg" alt="Cassandra Clare.">
+</div>
+<div class="text-bio1">
+  <h4>Cassandra Clare</h4>
+  <p>Judith Rumelt o más conocida bajo su pseudónimo, es una escritora nacida en Irán el 27 de julio de 1973. Trabajó como periodista en Los Angeles y Nueva York, donde reside actualmente. Sus obras más famosas son Las Crónicas de Cazadores de Sombras y la saga Magisterium de la que es co-escritora con su amiga escritora Holly Black.
+  </p>
+</div>
+<div class="img-bio2">
+  <img src="img/sc-cn.jpeg" alt="Cliff Nielsen.">
+</div>
+<div class="text-bio2">
+  <h4>Cliff Nielsen</h4>
+  <p>Ilustrador de libros y novelas gráficas de fantasía y ciencia ficción que vive en Los Ángeles, California. Él ha ilustrado varias portadas, sus trabajos más conocidos son de Star Wars, Los expedientes secretos X y las Crónicas de Narnia, además de las portadas de Las Crónicas de Cazadores de Sombras.
+  </p>
+</div>
+<div class="img-bio3">
+  <img src="img/sc-cj.jpg" alt="Cassandra Jean.">
+</div>
+<div class="text-bio3">
+  <h4>Cassandra Jean Piedra</h4>
+  <p>Ilustradora freelance y dibujante de cómics estadounidense. Además de trabajar en sus propios proyectos, como Cuckoos Three, también colabora con Cassandra Clare en ilustraciones y en las novelas gráficas de Cazadores de Sombras. Antes de su asociación publicaba fanart de los libros en su cuenta de deviantART. Es considerada la ilustradora oficial de Cazadores de Sombras.
+  </p>
+</div>
+<div class="img-bio4">
+  <img src="img/sc-ss.jpg" alt="Simon & Schuster.">
+</div>
+<div class="text-bio4">
+  <h4>Editorial Simon & Schuster</h4>
+  <p>Editorial fundada en Nueva York en 1924 por Richard L. Simon y M. Lincoln ("Max") Schuster. Es una de las cuatro mayores casas editoriales en idioma inglés. Simon & Schuster, así como sus sellos Margaret K. McElderry Books y Saga Press, se encarga de la publicación de los libros de Las Crónicas de Cazadores de Sombras.
+  </p>
+</div>
+<!--FOOTER-->
+<div class="footer"></div>
+<div class="svg-footer">
+  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  viewBox="0 0 624.5 38.5" style="enable-background:new 0 0 624.5 38.5;" xml:space="preserve">
+<style type="text/css">
+ .st0{fill:#D0BE9C;}
+</style>
+<g>
+ <g>
+   <path class="st0" d="M5.3,16.5c0.3,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.2,0.1,0.2,0.1s0.3,0.3,0.3,0.7
+     s-0.3,0.8-0.3,0.8s-0.4,0.5-1.1,0.5S4.3,18,4.3,18L5.3,16.5z M4.7,20L4,18.6l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4-0.1-0.5l0,0c0.1,0,0.2,0,0.3,0C8,16.6,8.1,17.1,8,17.7
+     c0,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C5.2,20,4.9,20,4.7,20z M10.2,23.1L10.2,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.4-0.5,0.8-1,1.1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3C9.8,19,9.5,18.9,9.1,19c-0.3,0.1-0.5,0.2-0.6,0.4
+     c-0.1,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5c-0.1,0.1-0.2,0.2-0.3,0.3c0,0-0.1,0.1,0,0.1
+     c0,0,0,0.1,0.1,0.1c0.1,0.1,0.2,0.1,0.3,0.1c0.1,0,0.1-0.1,0.1-0.1c0-0.2,0.1-0.3,0.2-0.5c0.1-0.1,0.2-0.3,0.4-0.4
+     c0.1,0,0.3-0.2,0.4-0.1c0.1,0,0.1,0.2,0.2,0.2c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9S8,23.7,7.7,24
+     l0,0c-0.4-0.3-0.8-0.7-1.2-1.2c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,0.9-0.4,1.5-0.8c0.7-0.4,1.5-1,1.9-2
+     c0.1-0.2,0.3-0.9,0-1.6c-0.1-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0-0.1-0.1c-0.2,0.2-0.4,0.5-0.7,0.7
+     s-0.5,0.4-0.8,0.6l0,0c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6C6.4,16,6.4,16,6.3,16.1
+     c-0.3,0-0.5,0-0.8,0L7,13.6l-0.4-1.8l0,0c-0.1,0.3-0.4,0.8-0.7,1.3c-0.4,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1
+     c-0.1-0.3-0.3-0.6-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.4c0,0-0.6,0-0.9,0.1c0,0-0.1,0.1-0.2,0.2s-0.1,0.1-0.1,0.2l0,0
+     c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4s0.2,0.5,0.3,0.6
+     c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3s0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2l0,0
+     c0.2,0.5,0.5,0.8,0.6,1.1C5.3,23,5.6,23.5,6,24c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1
+     c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.8-0.7c0.3-0.3,0.6-0.5,0.9-0.8l0,0C7.5,25.5,8.8,26,9.1,26c1,0,2.1-1.1,2.1-1.9
+     C11.3,23.1,10.2,23.1,10.2,23.1z M3.8,20.2c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4
+     C3.7,19.9,3.7,20.1,3.8,20.2L3.8,20.2z"/>
+   <path class="st0" d="M15.7,11.8L15.7,11.8c0.2,0.2,0.6,0.5,1.1,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.1-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0L18.4,15c-0.1,0-0.2,0-0.3,0c-0.1,0-0.9,0-1.2,0.6c-0.3,0.5-0.1,1.1,0.1,1.4
+     c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-0.9,1.2-1.1,2.5c-0.1,0.5-0.1,0.8,0,1.1
+     c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8c0.1-0.9,1.7-2.4,2.6-3
+     c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.4-0.2,0.5-0.3l0,0v0.1c-0.1,0.4-0.1,0.6-0.2,0.8c-0.2,0.6-0.2,0.8-0.3,1.2
+     c0,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0,1.5c0,0.1,0,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3c0.5,0.4,0.9,0.6,1.2,0.8
+     c0.6,0.4,0.9,0.5,1.6,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2c0.8-0.5,1.5-1.1,1.5-1.1
+     c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4,0-0.5c-0.1-0.1-0.2-0.2-0.3-0.2c-1.1-0.5-2.1-0.8-2.1-0.8
+     c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2l0,0c0.1,0,0.3,0.1,0.5,0.1
+     c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0,0.5,0,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5c-0.2,0-0.3,0-0.5-0.1
+     c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2l0,0c1.5,0.6,2.3,0.9,2.6,1c0.3,0.1,0.6,0.1,1,0.4
+     c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1h0.1l0,0c-0.1-0.1-0.2-0.3-0.4-0.4c-0.2-0.2-0.4-0.3-0.8-0.5
+     c-0.5-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1c0.8-1.4,1.2-2.1,1.4-2.4
+     c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.6-0.5c-0.6-0.4-1-0.7-1-0.7l0,0
+     c0,0-0.2-0.1-0.5-0.3h-0.1c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0C17.6,12,16.6,11.9,15.7,11.8z"/>
+   <path class="st0" d="M36.2,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1l0,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.2,0.8C35.4,17.9,35.8,18.2,36.2,18.7z M40.4,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c0,0-0.2,0-0.5,0C37.8,12.1,36,13,36,13c-0.9,0.5-1.7,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.6-0.1s0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.6,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5c0,0,0,0,0.1,0c0.8-1,1.6-2.1,2.5-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.3-2.6c-0.5-0.7-1-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2v0.1
+     c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C40.5,14.4,40.5,13.7,40.4,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M44.1,16.5c0.3,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.2,0.1,0.2,0.1s0.3,0.3,0.3,0.7
+     s-0.3,0.8-0.3,0.8s-0.4,0.5-1.1,0.5S43.1,18,43.1,18L44.1,16.5z M43.6,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4,0-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.2,0.8,0.1,1.5
+     c0,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C44,20,43.8,20,43.6,20z M49,23.1L49,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.5-0.5,0.8-1,1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3C48.6,19,48.3,18.9,48,19s-0.5,0.2-0.6,0.4
+     c-0.2,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5s-0.2,0.2-0.3,0.3v0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1l0.1-0.1c0.1-0.1,0.2-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.5-0.1c0.1,0,0.1,0.2,0.2,0.2
+     c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9s-0.5,0.8-0.8,1l0,0c-0.4-0.3-0.8-0.7-1.2-1.2
+     c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,1-0.4,1.5-0.8c0.7-0.4,1.5-1,1.8-2c0-0.2,0.3-0.9,0-1.6
+     c0-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0,0-0.1c-0.2,0.2-0.4,0.5-0.7,0.7s-0.5,0.4-0.8,0.6l0,0
+     c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1c-0.3,0-0.5,0-0.8,0
+     l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3c-0.5,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1c-0.1-0.3-0.3-0.6-0.5-0.9
+     c-0.1-0.1-0.2-0.2-0.3-0.4c0,0-0.6,0-0.8,0.1c0,0-0.1,0.1-0.2,0.2c-0.1,0.1-0.1,0.1-0.1,0.2l0,0c0.1,0,0.2,0,0.4,0
+     c0,0,0.2,0,0.3,0c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4c0.1,0.3,0.2,0.5,0.3,0.6c0,0,0,0,0.1,0
+     c0.1-0.5,0.2-1,0.3-1.3s0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2l0,0c0.2,0.5,0.5,0.8,0.6,1.1
+     c0.5,0.8,0.7,1.2,1.1,1.7c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1
+     c0.3-0.2,0.6-0.5,0.8-0.7c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.8,0.7c1,0,2.1-1.1,2.1-1.9C50.2,23.1,49,23.1,49,23.1z
+      M42.6,20.2c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4S42.6,20.1,42.6,20.2L42.6,20.2z"/>
+   <path class="st0" d="M54.5,11.8L54.5,11.8c0.2,0.2,0.6,0.5,1.2,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.2-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.2,0-0.3,0s-0.9,0-1.2,0.6
+     c-0.3,0.5-0.1,1.1,0.1,1.4c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-1,1.2-1.2,2.5
+     c-0.1,0.5-0.1,0.8,0,1.1c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8
+     c0.1-0.9,1.7-2.4,2.6-3c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.3-0.2,0.5-0.3l0,0v0.1c-0.1,0.4-0.2,0.6-0.2,0.8
+     c-0.2,0.6-0.2,0.8-0.3,1.2c0,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0,1.5c0,0.1,0,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3
+     c0.5,0.4,0.9,0.6,1.2,0.8c0.6,0.4,0.9,0.5,1.7,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2
+     c0.8-0.5,1.5-1.1,1.5-1.1c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4-0.1-0.5s-0.2-0.2-0.3-0.2
+     c-1.1-0.5-2.1-0.8-2.1-0.8c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2
+     l0,0c0.1,0,0.3,0.1,0.5,0.1c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0,0.5,0,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5
+     c-0.2,0-0.3,0-0.5-0.1c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2l0,0c1.5,0.6,2.3,0.9,2.7,1
+     c0.3,0.1,0.6,0.1,1,0.4c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1c0.1,0,0.1,0,0.2,0l0,0c-0.1-0.1-0.2-0.3-0.4-0.4
+     c-0.2-0.2-0.4-0.3-0.8-0.5c-0.5-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1
+     c0.8-1.4,1.2-2.1,1.4-2.4c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.7-0.5
+     c-0.6-0.4-1-0.7-1-0.7l0,0c0,0-0.2-0.1-0.5-0.3c0,0-0.1,0-0.2,0c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0
+     C56.4,12,55.5,11.9,54.5,11.8z"/>
+   <path class="st0" d="M75,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1c0,0,0,0-0.1,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.2,0.8C74.2,17.9,74.6,18.2,75,18.7z M79.2,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c-0.1,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.7,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.7-0.1c0.1-0.1,0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.6,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5h0.1c0.8-1,1.6-2.1,2.4-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.3-2.6c-0.5-0.7-0.9-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2
+     v0.1c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C79.4,14.4,79.4,13.7,79.2,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M82.9,16.5c0.3,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.2,0.1,0.2,0.1s0.3,0.3,0.3,0.7
+     s-0.3,0.8-0.3,0.8s-0.4,0.5-1.1,0.5S82,18,82,18L82.9,16.5z M82.4,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4-0.1-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.2,0.8,0.1,1.5
+     c-0.1,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C82.8,20,82.6,20,82.4,20z M87.9,23.1L87.9,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.4-0.5,0.8-1,1.1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.4-0.2-0.8-0.1c-0.3,0.1-0.5,0.2-0.6,0.4
+     c-0.2,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5c-0.1,0.1-0.2,0.2-0.3,0.3c0,0-0.1,0.1,0,0.1
+     c0,0,0,0.1,0.1,0.1c0.1,0.1,0.2,0.1,0.3,0.1c0.1,0,0.1-0.1,0.1-0.1c0.1-0.1,0.2-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4
+     c0.1,0,0.3-0.2,0.4-0.1c0.1,0,0.1,0.2,0.2,0.2c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9
+     c-0.2,0.4-0.5,0.8-0.8,1l0,0c-0.4-0.3-0.8-0.7-1.2-1.2c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,0.9-0.4,1.4-0.8
+     c0.7-0.4,1.5-1,1.8-2c0.1-0.2,0.3-0.9,0-1.6c-0.1-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0-0.1-0.1
+     c-0.2,0.2-0.4,0.5-0.7,0.7c-0.3,0.2-0.5,0.4-0.8,0.6l0,0c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0
+     c0,0.1-0.1,0.4-0.3,0.6c0-0.1,0-0.1-0.1,0c-0.3,0-0.5,0-0.8,0l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3
+     c-0.4,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1c-0.1-0.3-0.3-0.6-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.4c-0.1,0-0.6,0-0.8,0.1
+     c0,0-0.1,0.1-0.2,0.2S79,16.5,79,16.6l0,0c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5
+     c-0.4,1.5-0.2,2.1-0.1,2.4s0.2,0.5,0.3,0.6c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3c0.1-0.3,0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1
+     c0.2,0,0.5-0.1,0.8-0.2l0,0c0.2,0.5,0.5,0.8,0.6,1.1c0.5,0.8,0.7,1.2,1.1,1.7c0.3,0.4,0.6,0.7,0.9,0.9l0,0
+     c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.8-0.7c0.3-0.3,0.6-0.5,0.9-0.8l0,0
+     c0.2,0.2,1.5,0.7,1.8,0.7c1,0,2.1-1.1,2.1-1.9C89,23.1,87.9,23.1,87.9,23.1z M81.5,20.2c-0.1,0-0.2,0-0.3,0.1
+     c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4C81.4,19.9,81.4,20.1,81.5,20.2L81.5,20.2z"/>
+   <path class="st0" d="M93.3,11.8L93.3,11.8c0.2,0.2,0.6,0.5,1.2,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.2-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0c0,0-0.1-0.1-0.2-0.1s-0.2,0-0.3,0c-0.1,0-0.9,0-1.2,0.6
+     c-0.3,0.5-0.1,1.1,0.1,1.4c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-0.9,1.2-1.2,2.5
+     c-0.1,0.5-0.1,0.8,0,1.1c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8
+     c0.1-0.9,1.7-2.4,2.6-3c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.3-0.2,0.4-0.3c0,0,0,0,0.1,0v0.1c-0.1,0.4-0.2,0.6-0.2,0.8
+     c-0.2,0.6-0.2,0.8-0.3,1.2c-0.1,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0.1,1.5c0,0.1,0.1,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3
+     c0.5,0.4,0.9,0.6,1.2,0.8c0.6,0.4,0.9,0.5,1.7,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2
+     c0.8-0.5,1.5-1.1,1.5-1.1c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4-0.1-0.5s-0.2-0.2-0.3-0.2
+     c-1.1-0.5-2.1-0.8-2.1-0.8c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2
+     l0,0c0.1,0,0.3,0.1,0.5,0.1c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0.1,0.5-0.1,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5
+     c-0.2,0-0.3,0-0.4-0.1c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2h0.1c1.5,0.6,2.3,0.9,2.7,1
+     c0.3,0.1,0.6,0.1,0.9,0.4c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1c0.1,0,0.1,0,0.2,0l0,0c-0.1-0.1-0.2-0.3-0.4-0.4
+     c-0.2-0.2-0.4-0.3-0.8-0.5s-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1
+     c0.8-1.4,1.2-2.1,1.4-2.4c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.7-0.5
+     c-0.6-0.4-1-0.7-1-0.7l0,0c0,0-0.2-0.1-0.5-0.3c0,0-0.1,0-0.2,0s-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0
+     C95.3,12,94.3,11.9,93.3,11.8z"/>
+   <path class="st0" d="M113.9,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1c0,0,0,0-0.1,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.2,0.8C113.1,17.9,113.5,18.2,113.9,18.7z M118,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c-0.1,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.7,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.7-0.1c0.1-0.1,0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.6,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5h0.1c0.8-1,1.6-2.1,2.4-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.3-2.6c-0.5-0.7-0.9-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2
+     v0.1c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C118.2,14.4,118.2,13.7,118,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M121.8,16.5c0.3,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.2,0.1,0.2,0.1s0.3,0.3,0.3,0.7
+     s-0.3,0.8-0.3,0.8s-0.4,0.5-1.1,0.5s-1.3-0.9-1.3-0.9L121.8,16.5z M121.2,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4-0.1-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.2,0.8,0.1,1.5
+     c-0.1,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C121.7,20,121.4,20,121.2,20z M126.7,23.1L126.7,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.4-0.5,0.8-1,1.1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.4-0.2-0.8-0.1c-0.3,0.1-0.5,0.2-0.6,0.4
+     c-0.2,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5c-0.1,0.1-0.2,0.2-0.3,0.3c0,0-0.1,0.1,0,0.1
+     c0,0,0,0.1,0.1,0.1c0.1,0.1,0.2,0.1,0.3,0.1c0.1,0,0.1-0.1,0.1-0.1c0.1-0.1,0.2-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4
+     c0.1,0,0.3-0.2,0.4-0.1c0.1,0,0.1,0.2,0.2,0.2c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9
+     c-0.2,0.4-0.5,0.8-0.8,1l0,0c-0.4-0.3-0.8-0.7-1.2-1.2c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,0.9-0.4,1.4-0.8
+     c0.7-0.4,1.5-1,1.8-2c0.1-0.2,0.3-0.9,0-1.6c-0.1-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0-0.1-0.1
+     c-0.2,0.2-0.4,0.5-0.7,0.7c-0.3,0.2-0.5,0.4-0.8,0.6l0,0c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0
+     c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1c-0.3,0-0.5,0-0.8,0l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3
+     c-0.4,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1c-0.1-0.3-0.3-0.6-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.4c-0.1,0-0.6,0-0.8,0.1
+     c0,0-0.1,0.1-0.2,0.2s-0.1,0.1-0.1,0.2l0,0c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5
+     c-0.4,1.5-0.2,2.1-0.1,2.4s0.2,0.5,0.3,0.6c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3c0.1-0.3,0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1
+     c0.2,0,0.5-0.1,0.8-0.2l0,0c0.2,0.5,0.5,0.8,0.6,1.1c0.5,0.8,0.7,1.2,1.1,1.7c0.3,0.4,0.6,0.7,0.9,0.9l0,0
+     c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.8-0.7c0.3-0.3,0.6-0.5,0.9-0.8l0,0
+     c0.2,0.2,1.5,0.7,1.8,0.7c1,0,2.1-1.1,2.1-1.9C127.8,23.1,126.7,23.1,126.7,23.1z M120.3,20.2c-0.1,0-0.2,0-0.3,0.1
+     c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4S120.2,20.1,120.3,20.2L120.3,20.2z"/>
+   <path class="st0" d="M132.2,11.8L132.2,11.8c0.2,0.2,0.6,0.5,1.1,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.1-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0l-0.1-0.1c-0.1,0-0.2,0-0.3,0s-0.9,0-1.2,0.6c-0.3,0.5-0.1,1.1,0.1,1.4
+     c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-0.9,1.2-1.1,2.5c-0.1,0.5-0.1,0.8,0,1.1
+     c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8c0.1-0.9,1.7-2.4,2.6-3
+     c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.4-0.2,0.4-0.3c0,0,0,0,0.1,0v0.1c-0.1,0.4-0.1,0.6-0.2,0.8c-0.2,0.6-0.2,0.8-0.3,1.2
+     c-0.1,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0.1,1.5c0,0.1,0.1,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3c0.5,0.4,0.9,0.6,1.2,0.8
+     c0.6,0.4,0.9,0.5,1.6,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2c0.8-0.5,1.5-1.1,1.5-1.1
+     c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4-0.1-0.5s-0.2-0.2-0.3-0.2c-1.1-0.5-2.1-0.8-2.1-0.8
+     c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2l0,0c0.1,0,0.3,0.1,0.5,0.1
+     c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0.1,0.5-0.1,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5c-0.2,0-0.3,0-0.4-0.1
+     c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2h0.1c1.5,0.6,2.3,0.9,2.6,1s0.6,0.1,0.9,0.4
+     c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1s0.1,0,0.1,0l0,0c-0.1-0.1-0.2-0.3-0.4-0.4c-0.2-0.2-0.4-0.3-0.8-0.5
+     c-0.4-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1c0.8-1.4,1.2-2.1,1.4-2.4
+     c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.6-0.5c-0.6-0.4-1-0.7-1-0.7l0,0
+     c0,0-0.2-0.1-0.5-0.3h-0.1c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0C134.1,12,133.1,11.9,132.2,11.8z"/>
+   <path class="st0" d="M152.7,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1c0,0,0,0-0.1,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.1,0.8C151.9,17.9,152.3,18.2,152.7,18.7z M156.9,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c-0.1,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.6,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.6-0.1s0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.6,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5h0.1c0.8-1,1.6-2.1,2.4-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.4-2.6c-0.5-0.7-0.9-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2
+     v0.1c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C157.1,14.4,157.1,13.7,156.9,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M160.6,16.5c0.4,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.1,0.1,0.2,0.1c0,0,0.3,0.3,0.3,0.7
+     s-0.4,0.8-0.4,0.8s-0.4,0.5-1.1,0.5s-1.3-0.9-1.3-0.9L160.6,16.5z M160.1,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4-0.1-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.1,0.8,0.1,1.5
+     c-0.1,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C160.5,20,160.3,20,160.1,20z M165.6,23.1L165.6,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.4-0.5,0.8-1,1.1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.4-0.2-0.8-0.1c-0.3,0.1-0.5,0.2-0.6,0.4
+     c-0.1,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5s-0.2,0.2-0.3,0.3c0,0-0.1,0.1,0,0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1s0.1-0.1,0.1-0.1c0.1-0.1,0.1-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.4-0.1
+     c0.1,0,0.1,0.2,0.2,0.2c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9s-0.5,0.8-0.8,1l0,0
+     c-0.4-0.3-0.8-0.7-1.2-1.2c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,0.9-0.4,1.4-0.8c0.7-0.4,1.5-1,1.9-2
+     c0.1-0.2,0.3-0.9,0-1.6c-0.1-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0-0.1-0.1c-0.2,0.2-0.4,0.5-0.7,0.7
+     s-0.5,0.4-0.8,0.6l0,0c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1
+     c-0.3,0-0.5,0-0.8,0l1.5-2.5l-0.4-1.8h0c-0.1,0.3-0.4,0.8-0.7,1.3c-0.4,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1
+     c-0.1-0.3-0.3-0.6-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.4c-0.1,0-0.6,0-0.9,0.1c0,0-0.1,0.1-0.2,0.2c-0.1,0.1-0.1,0.1-0.1,0.2l0,0
+     c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4
+     c0.1,0.3,0.2,0.5,0.3,0.6c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3s0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2
+     l0,0c0.2,0.5,0.5,0.8,0.6,1.1c0.5,0.8,0.7,1.2,1.1,1.7c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7
+     c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.9-0.7c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.9,0.7
+     c1,0,2.1-1.1,2.1-1.9C166.7,23.1,165.6,23.1,165.6,23.1z M159.1,20.2c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0
+     c0,0.1,0.1,0.2,0.1,0.4C159,19.9,159.1,20.1,159.1,20.2L159.1,20.2z"/>
+   <path class="st0" d="M171,11.8L171,11.8c0.2,0.2,0.6,0.5,1.1,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.1-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0l-0.1-0.1c-0.1,0-0.2,0-0.3,0s-0.9,0-1.2,0.6c-0.3,0.5-0.1,1.1,0.1,1.4
+     c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-0.9,1.2-1.1,2.5c-0.1,0.5-0.1,0.8,0,1.1
+     c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8c0.1-0.9,1.7-2.4,2.6-3
+     c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.4-0.2,0.4-0.3c0,0,0,0,0.1,0v0.1c-0.1,0.4-0.1,0.6-0.2,0.8c-0.2,0.6-0.2,0.8-0.3,1.2
+     c-0.1,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0.1,1.5c0,0.1,0.1,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3c0.5,0.4,0.9,0.6,1.2,0.8
+     c0.6,0.4,0.9,0.5,1.6,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2c0.8-0.5,1.5-1.1,1.5-1.1
+     c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4-0.1-0.5s-0.2-0.2-0.3-0.2c-1.1-0.5-2.1-0.8-2.1-0.8
+     c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2l0,0c0.1,0,0.3,0.1,0.5,0.1
+     c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0.1,0.5-0.1,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5c-0.2,0-0.3,0-0.4-0.1
+     c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2h0.1c1.5,0.6,2.3,0.9,2.6,1s0.6,0.1,0.9,0.4
+     c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1s0.1,0,0.1,0l0,0c-0.1-0.1-0.2-0.3-0.4-0.4c-0.2-0.2-0.4-0.3-0.8-0.5
+     c-0.4-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1c0.8-1.4,1.2-2.1,1.4-2.4
+     c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.6-0.5c-0.6-0.4-1-0.7-1-0.7l0,0
+     c0,0-0.2-0.1-0.5-0.3h-0.1c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0C172.9,12,172,11.9,171,11.8z"/>
+   <path class="st0" d="M191.5,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1c0,0,0,0-0.1,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.1,0.8C190.8,17.9,191.2,18.2,191.5,18.7z M195.7,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c-0.1,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.6,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.6-0.1s0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.6,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5h0.1c0.8-1,1.6-2.1,2.4-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.4-2.6c-0.5-0.7-0.9-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2
+     v0.1c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C195.9,14.4,195.9,13.7,195.7,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M199.5,16.5c0.4,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.1,0.1,0.2,0.1c0,0,0.3,0.3,0.3,0.7
+     s-0.4,0.8-0.4,0.8s-0.4,0.5-1.1,0.5s-1.3-0.9-1.3-0.9L199.5,16.5z M198.9,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4-0.1-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.1,0.8,0.1,1.5
+     c-0.1,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C199.4,20,199.1,20,198.9,20z M204.4,23.1L204.4,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.4-0.5,0.8-1,1.1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.4-0.2-0.8-0.1c-0.3,0.1-0.5,0.2-0.6,0.4
+     c-0.1,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5s-0.2,0.2-0.3,0.3c0,0-0.1,0.1,0,0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1s0.1-0.1,0.1-0.1c0.1-0.1,0.1-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.4-0.1
+     c0.1,0,0.1,0.2,0.2,0.2c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9s-0.5,0.8-0.8,1l0,0
+     c-0.4-0.3-0.8-0.7-1.2-1.2c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,0.9-0.4,1.4-0.8c0.7-0.4,1.5-1,1.9-2
+     c0.1-0.2,0.3-0.9,0-1.6c-0.1-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0-0.1-0.1c-0.2,0.2-0.4,0.5-0.7,0.7
+     s-0.5,0.4-0.8,0.6l0,0c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1
+     c-0.3,0-0.5,0-0.8,0l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3c-0.4,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1
+     c-0.1-0.3-0.3-0.6-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.4c-0.1,0-0.6,0-0.9,0.1c0,0-0.1,0.1-0.2,0.2c-0.1,0.1-0.1,0.1-0.1,0.2l0,0
+     c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4
+     c0.1,0.3,0.2,0.5,0.3,0.6c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3s0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2
+     l0,0c0.2,0.5,0.5,0.8,0.6,1.1c0.5,0.8,0.7,1.2,1.1,1.7c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7
+     c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.9-0.7c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.9,0.7
+     c1,0,2.1-1.1,2.1-1.9C205.5,23.1,204.4,23.1,204.4,23.1z M198,20.2c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0
+     c0,0.1,0.1,0.2,0.1,0.4C197.9,19.9,197.9,20.1,198,20.2L198,20.2z"/>
+   <path class="st0" d="M209.9,11.8L209.9,11.8c0.2,0.2,0.6,0.5,1.1,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.1-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0l-0.1-0.1c-0.1,0-0.2,0-0.3,0s-0.9,0-1.2,0.6c-0.3,0.5-0.1,1.1,0.1,1.4
+     c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-0.9,1.2-1.1,2.5c-0.1,0.5-0.1,0.8,0,1.1
+     c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8c0.1-0.9,1.7-2.4,2.6-3
+     c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.4-0.2,0.4-0.3c0,0,0,0,0.1,0v0.1c-0.1,0.4-0.1,0.6-0.2,0.8c-0.2,0.6-0.2,0.8-0.3,1.2
+     c-0.1,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0.1,1.5c0,0.1,0.1,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3c0.5,0.4,0.9,0.6,1.2,0.8
+     c0.6,0.4,0.9,0.5,1.6,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2c0.8-0.5,1.5-1.1,1.5-1.1
+     c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4-0.1-0.5s-0.2-0.2-0.3-0.2c-1.1-0.5-2.1-0.8-2.1-0.8
+     c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2l0,0c0.1,0,0.3,0.1,0.5,0.1
+     c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0.1,0.5-0.1,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5c-0.2,0-0.3,0-0.4-0.1
+     c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2h0.1c1.5,0.6,2.3,0.9,2.6,1s0.6,0.1,0.9,0.4
+     c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1s0.1,0,0.1,0l0,0c-0.1-0.1-0.2-0.3-0.4-0.4c-0.2-0.2-0.4-0.3-0.8-0.5
+     c-0.4-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1c0.8-1.4,1.2-2.1,1.4-2.4
+     c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.6-0.5c-0.6-0.4-1-0.7-1-0.7l0,0
+     c0,0-0.2-0.1-0.5-0.3h-0.1c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0C211.8,12,210.8,11.9,209.9,11.8z"/>
+   <path class="st0" d="M230.4,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1c0,0,0,0-0.1,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.1,0.8C229.6,17.9,230,18.2,230.4,18.7z M234.6,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c-0.1,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.6,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.6-0.1s0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.6,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5h0.1c0.8-1,1.6-2.1,2.4-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.4-2.6c-0.5-0.7-0.9-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2
+     v0.1c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C234.8,14.4,234.7,13.7,234.6,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M238.3,16.5c0.4,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.1,0.1,0.2,0.1c0,0,0.3,0.3,0.3,0.7
+     s-0.4,0.8-0.4,0.8s-0.4,0.5-1.1,0.5s-1.3-0.9-1.3-0.9L238.3,16.5z M237.8,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4-0.1-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.1,0.8,0.1,1.5
+     c-0.1,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C238.2,20,237.9,20,237.8,20z M243.2,23.1L243.2,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.4-0.5,0.8-1,1.1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.4-0.2-0.8-0.1c-0.3,0.1-0.5,0.2-0.6,0.4
+     c-0.1,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5s-0.2,0.2-0.3,0.3c0,0-0.1,0.1,0,0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1s0.1-0.1,0.1-0.1c0.1-0.1,0.1-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.4-0.1
+     c0.1,0,0.1,0.2,0.2,0.2c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9s-0.5,0.8-0.8,1l0,0
+     c-0.4-0.3-0.8-0.7-1.2-1.2c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,0.9-0.4,1.4-0.8c0.7-0.4,1.5-1,1.9-2
+     c0.1-0.2,0.3-0.9,0-1.6c-0.1-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0-0.1-0.1c-0.2,0.2-0.4,0.5-0.7,0.7
+     s-0.5,0.4-0.8,0.6l0,0c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1
+     c-0.3,0-0.5,0-0.8,0l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3c-0.4,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1
+     c-0.1-0.3-0.3-0.6-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.4c-0.1,0-0.6,0-0.9,0.1c0,0-0.1,0.1-0.2,0.2c-0.1,0.1-0.1,0.1-0.1,0.2l0,0
+     c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4
+     c0.1,0.3,0.2,0.5,0.3,0.6c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3s0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2
+     l0,0c0.2,0.5,0.5,0.8,0.6,1.1c0.5,0.8,0.7,1.2,1.1,1.7c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7
+     c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.9-0.7c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.9,0.7
+     c1,0,2.1-1.1,2.1-1.9C244.4,23.1,243.2,23.1,243.2,23.1z M236.8,20.2c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0
+     c0,0.1,0.1,0.2,0.1,0.4S236.8,20.1,236.8,20.2L236.8,20.2z"/>
+   <path class="st0" d="M248.7,11.8L248.7,11.8c0.2,0.2,0.6,0.5,1.1,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.1-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0l-0.1-0.1c-0.1,0-0.2,0-0.3,0s-0.9,0-1.2,0.6c-0.3,0.5-0.1,1.1,0.1,1.4
+     c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-0.9,1.2-1.1,2.5c-0.1,0.5-0.1,0.8,0,1.1
+     c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8c0.1-0.9,1.7-2.4,2.6-3
+     c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.4-0.2,0.4-0.3c0,0,0,0,0.1,0v0.1c-0.1,0.4-0.1,0.6-0.2,0.8c-0.2,0.6-0.2,0.8-0.3,1.2
+     c-0.1,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0.1,1.5c0,0.1,0.1,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3c0.5,0.4,0.9,0.6,1.2,0.8
+     c0.6,0.4,0.9,0.5,1.6,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2c0.8-0.5,1.5-1.1,1.5-1.1
+     c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4,0-0.5c-0.1-0.1-0.2-0.2-0.3-0.2c-1.1-0.5-2.1-0.8-2.1-0.8
+     c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2l0,0c0.1,0,0.3,0.1,0.5,0.1
+     c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0,0.5,0,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5c-0.2,0-0.3,0-0.4-0.1
+     c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2h0.1c1.5,0.6,2.3,0.9,2.7,1c0.3,0.1,0.6,0.1,1,0.4
+     c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1h0.1l0,0c-0.1-0.1-0.2-0.3-0.4-0.4c-0.2-0.2-0.4-0.3-0.8-0.5
+     c-0.5-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1c0.8-1.4,1.2-2.1,1.4-2.4
+     c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.6-0.5c-0.6-0.4-1-0.7-1-0.7l0,0
+     c0,0-0.2-0.1-0.5-0.3h-0.1c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0C250.6,12,249.7,11.9,248.7,11.8z"/>
+   <path class="st0" d="M269.2,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1l0,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.1,0.8C268.4,17.9,268.8,18.2,269.2,18.7z M273.4,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c0,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.6,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.6-0.1s0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.5,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5c0,0,0,0,0.1,0c0.8-1,1.6-2.1,2.5-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.4-2.6c-0.5-0.7-1-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2v0.1
+     c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C273.6,14.4,273.6,13.7,273.4,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M277.1,16.5c0.4,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.1,0.1,0.2,0.1c0,0,0.3,0.3,0.3,0.7
+     s-0.4,0.8-0.4,0.8s-0.4,0.5-1.1,0.5s-1.3-0.9-1.3-0.9L277.1,16.5z M276.6,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4,0-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.1,0.8,0.1,1.5
+     c0,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C277,20,276.8,20,276.6,20z M282.1,23.1L282.1,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.5-0.5,0.8-1,1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.5-0.2-0.8-0.1s-0.5,0.2-0.6,0.4
+     c-0.1,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5c-0.1,0.1-0.2,0.2-0.3,0.3v0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1l0.1-0.1c0.1-0.1,0.1-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.5-0.1c0.1,0,0.1,0.2,0.2,0.2
+     c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9c-0.2,0.4-0.5,0.8-0.8,1l0,0c-0.4-0.3-0.8-0.7-1.2-1.2
+     c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,1-0.4,1.5-0.8c0.7-0.4,1.5-1,1.9-2c0-0.2,0.3-0.9,0-1.6
+     c0-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0,0-0.1c-0.2,0.2-0.4,0.5-0.7,0.7c-0.3,0.2-0.5,0.4-0.8,0.6l0,0
+     c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1c-0.3,0-0.5,0-0.8,0
+     l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3c-0.5,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1c-0.1-0.3-0.3-0.6-0.5-0.9
+     c-0.1-0.1-0.2-0.2-0.3-0.4c0,0-0.6,0-0.9,0.1c0,0-0.1,0.1-0.2,0.2s-0.1,0.1-0.1,0.2l0,0c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0
+     c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4s0.2,0.5,0.3,0.6c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3
+     c0.1-0.3,0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2l0,0c0.2,0.5,0.5,0.8,0.6,1.1c0.5,0.8,0.7,1.2,1.1,1.7
+     c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.9-0.7
+     c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.9,0.7c1,0,2.1-1.1,2.1-1.9C283.2,23.1,282.1,23.1,282.1,23.1z M275.7,20.2
+     c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4C275.5,19.9,275.6,20.1,275.7,20.2L275.7,20.2z"/>
+   <path class="st0" d="M287.5,11.8L287.5,11.8c0.2,0.2,0.6,0.5,1.1,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.1-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0l-0.1-0.1c-0.1,0-0.2,0-0.3,0c-0.1,0-0.9,0-1.2,0.6
+     c-0.3,0.5-0.1,1.1,0.1,1.4c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-1,1.2-1.1,2.5
+     c-0.1,0.5-0.1,0.8,0,1.1c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8
+     c0.1-0.9,1.7-2.4,2.6-3c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.4-0.2,0.5-0.3l0,0v0.1c-0.1,0.4-0.1,0.6-0.2,0.8
+     c-0.2,0.6-0.2,0.8-0.3,1.2c0,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0,1.5c0,0.1,0,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3
+     c0.5,0.4,0.9,0.6,1.2,0.8c0.6,0.4,0.9,0.5,1.6,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2
+     c0.8-0.5,1.5-1.1,1.5-1.1c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4,0-0.5c-0.1-0.1-0.2-0.2-0.3-0.2
+     c-1.1-0.5-2.1-0.8-2.1-0.8c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2
+     l0,0c0.1,0,0.3,0.1,0.5,0.1c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0,0.5,0,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5
+     c-0.2,0-0.3,0-0.5-0.1c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2l0,0c1.5,0.6,2.3,0.9,2.6,1
+     c0.3,0.1,0.6,0.1,1,0.4c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1h0.1l0,0c-0.1-0.1-0.2-0.3-0.4-0.4c-0.2-0.2-0.4-0.3-0.8-0.5
+     c-0.5-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1c0.8-1.4,1.2-2.1,1.4-2.4
+     c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.6-0.5c-0.6-0.4-1-0.7-1-0.7l0,0
+     c0,0-0.2-0.1-0.5-0.3h-0.1c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0C289.5,12,288.5,11.9,287.5,11.8z"/>
+   <path class="st0" d="M308.1,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1l0,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.1,0.8C307.3,17.9,307.7,18.2,308.1,18.7z M312.2,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c0,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.6,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.6-0.1s0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.5,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5c0,0,0,0,0.1,0c0.8-1,1.6-2.1,2.5-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.4-2.6c-0.5-0.7-1-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2v0.1
+     c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C312.4,14.4,312.4,13.7,312.2,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M316,16.5c0.4,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.1,0.1,0.2,0.1c0,0,0.3,0.3,0.3,0.7
+     s-0.4,0.8-0.4,0.8s-0.4,0.5-1.1,0.5S315,18,315,18L316,16.5z M315.5,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4,0-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.1,0.8,0.1,1.5
+     c0,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C315.9,20,315.6,20,315.5,20z M320.9,23.1L320.9,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.5-0.5,0.8-1,1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.5-0.2-0.8-0.1s-0.5,0.2-0.6,0.4
+     c-0.1,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5c-0.1,0.1-0.2,0.2-0.3,0.3v0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1l0.1-0.1c0.1-0.1,0.1-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.5-0.1c0.1,0,0.1,0.2,0.2,0.2
+     c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9c-0.2,0.4-0.5,0.8-0.8,1l0,0c-0.4-0.3-0.8-0.7-1.2-1.2
+     c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,1-0.4,1.5-0.8c0.7-0.4,1.5-1,1.9-2c0-0.2,0.3-0.9,0-1.6
+     c0-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0,0-0.1c-0.2,0.2-0.4,0.5-0.7,0.7c-0.3,0.2-0.5,0.4-0.8,0.6l0,0
+     c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1c-0.3,0-0.5,0-0.8,0
+     l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3c-0.5,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1c-0.1-0.3-0.3-0.6-0.5-0.9
+     c-0.1-0.1-0.2-0.2-0.3-0.4c0,0-0.6,0-0.9,0.1c0,0-0.1,0.1-0.2,0.2s-0.1,0.1-0.1,0.2l0,0c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0
+     c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4s0.2,0.5,0.3,0.6c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3
+     c0.1-0.3,0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2l0,0c0.2,0.5,0.5,0.8,0.6,1.1c0.5,0.8,0.7,1.2,1.1,1.7
+     c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.9-0.7
+     c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.9,0.7c1,0,2.1-1.1,2.1-1.9C322,23.1,320.9,23.1,320.9,23.1z M314.5,20.2
+     c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4S314.4,20.1,314.5,20.2L314.5,20.2z"/>
+   <path class="st0" d="M326.4,11.8L326.4,11.8c0.2,0.2,0.6,0.5,1.1,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.1-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0l-0.1-0.1c-0.1,0-0.2,0-0.3,0c-0.1,0-0.9,0-1.2,0.6
+     c-0.3,0.5-0.1,1.1,0.1,1.4c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-1,1.2-1.1,2.5
+     c-0.1,0.5-0.1,0.8,0,1.1c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8
+     c0.1-0.9,1.7-2.4,2.6-3c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.4-0.2,0.5-0.3l0,0v0.1c-0.1,0.4-0.1,0.6-0.2,0.8
+     c-0.2,0.6-0.2,0.8-0.3,1.2c0,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0,1.5c0,0.1,0,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3
+     c0.5,0.4,0.9,0.6,1.2,0.8c0.6,0.4,0.9,0.5,1.6,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2
+     c0.8-0.5,1.5-1.1,1.5-1.1c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4,0-0.5c-0.1-0.1-0.2-0.2-0.3-0.2
+     c-1.1-0.5-2.1-0.8-2.1-0.8c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2
+     l0,0c0.1,0,0.3,0.1,0.5,0.1c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0,0.5,0,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5
+     c-0.2,0-0.3,0-0.5-0.1c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2l0,0c1.5,0.6,2.3,0.9,2.6,1
+     c0.3,0.1,0.6,0.1,1,0.4c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1h0.1l0,0c-0.1-0.1-0.2-0.3-0.4-0.4c-0.2-0.2-0.4-0.3-0.8-0.5
+     c-0.5-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1c0.8-1.4,1.2-2.1,1.4-2.4
+     c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.6-0.5c-0.6-0.4-1-0.7-1-0.7l0,0
+     c0,0-0.2-0.1-0.5-0.3h-0.1c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0C328.3,12,327.3,11.9,326.4,11.8z"/>
+   <path class="st0" d="M346.9,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1l0,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.1,0.8C346.1,17.9,346.5,18.2,346.9,18.7z M351.1,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c0,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.6,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.6-0.1s0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.5,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5c0,0,0,0,0.1,0c0.8-1,1.6-2.1,2.5-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.4-2.6c-0.5-0.7-1-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2v0.1
+     c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C351.3,14.4,351.2,13.7,351.1,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M354.8,16.5c0.4,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.1,0.1,0.2,0.1c0,0,0.3,0.3,0.3,0.7
+     s-0.4,0.8-0.4,0.8s-0.4,0.5-1.1,0.5s-1.3-0.9-1.3-0.9L354.8,16.5z M354.3,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4,0-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.1,0.8,0.1,1.5
+     c0,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C354.7,20,354.5,20,354.3,20z M359.8,23.1L359.8,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.5-0.5,0.8-1,1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.5-0.2-0.8-0.1s-0.5,0.2-0.6,0.4
+     c-0.1,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5c-0.1,0.1-0.2,0.2-0.3,0.3v0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1l0.1-0.1c0.1-0.1,0.1-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.5-0.1c0.1,0,0.1,0.2,0.2,0.2
+     c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9c-0.2,0.4-0.5,0.8-0.8,1l0,0c-0.4-0.3-0.8-0.7-1.2-1.2
+     c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,1-0.4,1.5-0.8c0.7-0.4,1.5-1,1.9-2c0-0.2,0.3-0.9,0-1.6
+     c0-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0,0-0.1c-0.2,0.2-0.4,0.5-0.7,0.7c-0.3,0.2-0.5,0.4-0.8,0.6l0,0
+     c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1c-0.3,0-0.5,0-0.8,0
+     l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3c-0.5,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1c-0.1-0.3-0.3-0.6-0.5-0.9
+     c-0.1-0.1-0.2-0.2-0.3-0.4c0,0-0.6,0-0.9,0.1c0,0-0.1,0.1-0.2,0.2s-0.1,0.1-0.1,0.2l0,0c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0
+     c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4s0.2,0.5,0.3,0.6c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3
+     c0.1-0.3,0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2l0,0c0.2,0.5,0.5,0.8,0.6,1.1c0.5,0.8,0.7,1.2,1.1,1.7
+     c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.9-0.7
+     c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.9,0.7c1,0,2.1-1.1,2.1-1.9C360.9,23.1,359.8,23.1,359.8,23.1z M353.3,20.2
+     c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4S353.3,20.1,353.3,20.2L353.3,20.2z"/>
+   <path class="st0" d="M365.2,11.8L365.2,11.8c0.2,0.2,0.6,0.5,1.1,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.1-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0l-0.1-0.1c-0.1,0-0.2,0-0.3,0c-0.1,0-0.9,0-1.2,0.6
+     c-0.3,0.5-0.1,1.1,0.1,1.4c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-1,1.2-1.1,2.5
+     c-0.1,0.5-0.1,0.8,0,1.1c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8
+     c0.1-0.9,1.7-2.4,2.6-3c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.4-0.2,0.5-0.3l0,0v0.1c-0.1,0.4-0.1,0.6-0.2,0.8
+     c-0.2,0.6-0.2,0.8-0.3,1.2c0,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0,1.5c0,0.1,0,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3
+     c0.5,0.4,0.9,0.6,1.2,0.8c0.6,0.4,0.9,0.5,1.6,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2
+     c0.8-0.5,1.5-1.1,1.5-1.1c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4,0-0.5c-0.1-0.1-0.2-0.2-0.3-0.2
+     c-1.1-0.5-2.1-0.8-2.1-0.8c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2
+     l0,0c0.1,0,0.3,0.1,0.5,0.1c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0,0.5,0,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5
+     c-0.2,0-0.3,0-0.5-0.1c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2l0,0c1.5,0.6,2.3,0.9,2.6,1
+     c0.3,0.1,0.6,0.1,1,0.4c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1h0.1l0,0c-0.1-0.1-0.2-0.3-0.4-0.4c-0.2-0.2-0.4-0.3-0.8-0.5
+     c-0.5-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1c0.8-1.4,1.2-2.1,1.4-2.4
+     c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.6-0.5c-0.6-0.4-1-0.7-1-0.7l0,0
+     c0,0-0.2-0.1-0.5-0.3h-0.1c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0C367.1,12,366.2,11.9,365.2,11.8z"/>
+   <path class="st0" d="M385.7,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1l0,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.1,0.8C384.9,17.9,385.4,18.2,385.7,18.7z M389.9,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c0,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.6,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.6-0.1s0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.5,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5c0,0,0,0,0.1,0c0.8-1,1.6-2.1,2.5-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.4-2.6c-0.5-0.7-1-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2v0.1
+     c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C390.1,14.4,390.1,13.7,389.9,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M393.7,16.5c0.4,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.1,0.1,0.2,0.1c0,0,0.3,0.3,0.3,0.7
+     s-0.4,0.8-0.4,0.8s-0.4,0.5-1.1,0.5s-1.3-0.9-1.3-0.9L393.7,16.5z M393.1,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4,0-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.1,0.8,0.1,1.5
+     c0,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C393.5,20,393.3,20,393.1,20z M398.6,23.1L398.6,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.5-0.5,0.8-1,1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.5-0.2-0.8-0.1s-0.5,0.2-0.6,0.4
+     c-0.1,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5c-0.1,0.1-0.2,0.2-0.3,0.3v0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1l0.1-0.1c0.1-0.1,0.1-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.5-0.1c0.1,0,0.1,0.2,0.2,0.2
+     c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9c-0.2,0.4-0.5,0.8-0.8,1l0,0c-0.4-0.3-0.8-0.7-1.2-1.2
+     c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,1-0.4,1.5-0.8c0.7-0.4,1.5-1,1.9-2c0-0.2,0.3-0.9,0-1.6
+     c0-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0,0-0.1c-0.2,0.2-0.4,0.5-0.7,0.7c-0.3,0.2-0.5,0.4-0.8,0.6l0,0
+     c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1c-0.3,0-0.5,0-0.8,0
+     l1.5-2.5l-0.4-1.8H395c-0.1,0.3-0.4,0.8-0.7,1.3c-0.5,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1c-0.1-0.3-0.3-0.6-0.5-0.9
+     c-0.1-0.1-0.2-0.2-0.3-0.4c0,0-0.6,0-0.9,0.1c0,0-0.1,0.1-0.2,0.2s-0.1,0.1-0.1,0.2l0,0c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0
+     c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4s0.2,0.5,0.3,0.6c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3
+     c0.1-0.3,0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2l0,0c0.2,0.5,0.5,0.8,0.6,1.1c0.5,0.8,0.7,1.2,1.1,1.7
+     c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.9-0.7
+     c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.9,0.7c1,0,2.1-1.1,2.1-1.9C399.7,23.1,398.6,23.1,398.6,23.1z M392.2,20.2
+     c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4S392.1,20.1,392.2,20.2L392.2,20.2z"/>
+   <path class="st0" d="M404,11.8L404,11.8c0.2,0.2,0.6,0.5,1.1,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.1-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0l-0.1-0.1c-0.1,0-0.2,0-0.3,0c-0.1,0-0.9,0-1.2,0.6
+     c-0.3,0.5-0.1,1.1,0.1,1.4c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-1,1.2-1.1,2.5
+     c-0.1,0.5-0.1,0.8,0,1.1c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8
+     c0.1-0.9,1.7-2.4,2.6-3c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.4-0.2,0.5-0.3l0,0v0.1c-0.1,0.4-0.1,0.6-0.2,0.8
+     c-0.2,0.6-0.2,0.8-0.3,1.2c0,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0,1.5c0,0.1,0,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3
+     c0.5,0.4,0.9,0.6,1.2,0.8c0.6,0.4,0.9,0.5,1.6,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2
+     c0.8-0.5,1.5-1.1,1.5-1.1c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4,0-0.5c-0.1-0.1-0.2-0.2-0.3-0.2
+     c-1.1-0.5-2.1-0.8-2.1-0.8c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2
+     l0,0c0.1,0,0.3,0.1,0.5,0.1c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0,0.5,0,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5
+     c-0.2,0-0.3,0-0.5-0.1c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2l0,0c1.5,0.6,2.3,0.9,2.6,1
+     c0.3,0.1,0.6,0.1,1,0.4c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1h0.1l0,0c-0.1-0.1-0.2-0.3-0.4-0.4c-0.2-0.2-0.4-0.3-0.8-0.5
+     c-0.5-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1c0.8-1.4,1.2-2.1,1.4-2.4
+     c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.6-0.5c-0.6-0.4-1-0.7-1-0.7l0,0
+     c0,0-0.2-0.1-0.5-0.3h-0.1c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0C406,12,405,11.9,404,11.8z"/>
+   <path class="st0" d="M424.6,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1l0,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.1,0.8C423.8,17.9,424.2,18.2,424.6,18.7z M428.8,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c0,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.6,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.6-0.1s0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.5,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5c0,0,0,0,0.1,0c0.8-1,1.6-2.1,2.5-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.4-2.6c-0.5-0.7-1-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2v0.1
+     c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C428.9,14.4,428.9,13.7,428.8,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M432.5,16.5c0.4,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.1,0.1,0.2,0.1c0,0,0.3,0.3,0.3,0.7
+     s-0.4,0.8-0.4,0.8s-0.4,0.5-1.1,0.5s-1.3-0.9-1.3-0.9L432.5,16.5z M432,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4,0-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.1,0.8,0.1,1.5
+     c0,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C432.4,20,432.1,20,432,20z M437.4,23.1L437.4,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.5-0.5,0.8-1,1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.5-0.2-0.8-0.1s-0.5,0.2-0.6,0.4
+     c-0.1,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5c-0.1,0.1-0.2,0.2-0.3,0.3v0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1l0.1-0.1c0.1-0.1,0.1-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.5-0.1c0.1,0,0.1,0.2,0.2,0.2
+     c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9c-0.2,0.4-0.5,0.8-0.8,1l0,0c-0.4-0.3-0.8-0.7-1.2-1.2
+     c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,1-0.4,1.5-0.8c0.7-0.4,1.5-1,1.9-2c0-0.2,0.3-0.9,0-1.6
+     c0-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0,0-0.1c-0.2,0.2-0.4,0.5-0.7,0.7c-0.3,0.2-0.5,0.4-0.8,0.6l0,0
+     c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1c-0.3,0-0.5,0-0.8,0
+     l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3c-0.5,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1c-0.1-0.3-0.3-0.6-0.5-0.9
+     c-0.1-0.1-0.2-0.2-0.3-0.4c0,0-0.6,0-0.9,0.1c0,0-0.1,0.1-0.2,0.2s-0.1,0.1-0.1,0.2l0,0c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0
+     c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4s0.2,0.5,0.3,0.6c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3
+     c0.1-0.3,0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2l0,0c0.2,0.5,0.5,0.8,0.6,1.1c0.5,0.8,0.7,1.2,1.1,1.7
+     c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.9-0.7
+     c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.9,0.7c1,0,2.1-1.1,2.1-1.9C438.5,23.1,437.4,23.1,437.4,23.1z M431,20.2
+     c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4C430.9,19.9,430.9,20.1,431,20.2L431,20.2z"/>
+   <path class="st0" d="M442.9,11.8L442.9,11.8c0.2,0.2,0.6,0.5,1.1,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.1-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0l-0.1-0.1c-0.1,0-0.2,0-0.3,0c-0.1,0-0.9,0-1.2,0.6
+     c-0.3,0.5-0.1,1.1,0.1,1.4c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-1,1.2-1.1,2.5
+     c-0.1,0.5-0.1,0.8,0,1.1c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8
+     c0.1-0.9,1.7-2.4,2.6-3c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.4-0.2,0.5-0.3l0,0v0.1c-0.1,0.4-0.1,0.6-0.2,0.8
+     c-0.2,0.6-0.2,0.8-0.3,1.2c0,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0,1.5c0,0.1,0,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3
+     c0.5,0.4,0.9,0.6,1.2,0.8c0.6,0.4,0.9,0.5,1.6,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2
+     c0.8-0.5,1.5-1.1,1.5-1.1c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4,0-0.5c-0.1-0.1-0.2-0.2-0.3-0.2
+     c-1.1-0.5-2.1-0.8-2.1-0.8c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2
+     l0,0c0.1,0,0.3,0.1,0.5,0.1c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0,0.5,0,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5
+     c-0.2,0-0.3,0-0.5-0.1c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2l0,0c1.5,0.6,2.3,0.9,2.6,1
+     c0.3,0.1,0.6,0.1,1,0.4c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1h0.1l0,0c-0.1-0.1-0.2-0.3-0.4-0.4c-0.2-0.2-0.4-0.3-0.8-0.5
+     c-0.5-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1c0.8-1.4,1.2-2.1,1.4-2.4
+     c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.6-0.5c-0.6-0.4-1-0.7-1-0.7l0,0
+     c0,0-0.2-0.1-0.5-0.3h-0.1c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0C444.8,12,443.9,11.9,442.9,11.8z"/>
+   <path class="st0" d="M463.4,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1l0,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.1,0.8C462.6,17.9,463,18.2,463.4,18.7z M467.6,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c0,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.6,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.6-0.1s0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.5,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5c0,0,0,0,0.1,0c0.8-1,1.6-2.1,2.5-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.4-2.6c-0.5-0.7-1-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2v0.1
+     c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C467.8,14.4,467.8,13.7,467.6,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M471.3,16.5c0.4,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.1,0.1,0.2,0.1c0,0,0.3,0.3,0.3,0.7
+     s-0.4,0.8-0.4,0.8s-0.4,0.5-1.1,0.5s-1.3-0.9-1.3-0.9L471.3,16.5z M470.8,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4,0-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.1,0.8,0.1,1.5
+     c0,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C471.2,20,471,20,470.8,20z M476.3,23.1L476.3,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.5-0.5,0.8-1,1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.5-0.2-0.8-0.1s-0.5,0.2-0.6,0.4
+     c-0.1,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5c-0.1,0.1-0.2,0.2-0.3,0.3v0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1l0.1-0.1c0.1-0.1,0.1-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.5-0.1c0.1,0,0.1,0.2,0.2,0.2
+     c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9c-0.2,0.4-0.5,0.8-0.8,1l0,0c-0.4-0.3-0.8-0.7-1.2-1.2
+     c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,1-0.4,1.5-0.8c0.7-0.4,1.5-1,1.9-2c0-0.2,0.3-0.9,0-1.6
+     c0-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0,0-0.1c-0.2,0.2-0.4,0.5-0.7,0.7c-0.3,0.2-0.5,0.4-0.8,0.6l0,0
+     c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1c-0.3,0-0.5,0-0.8,0
+     l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3c-0.5,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1c-0.1-0.3-0.3-0.6-0.5-0.9
+     c-0.1-0.1-0.2-0.2-0.3-0.4c0,0-0.6,0-0.9,0.1c0,0-0.1,0.1-0.2,0.2s-0.1,0.1-0.1,0.2l0,0c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0
+     c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4s0.2,0.5,0.3,0.6c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3
+     c0.1-0.3,0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2l0,0c0.2,0.5,0.5,0.8,0.6,1.1c0.5,0.8,0.7,1.2,1.1,1.7
+     c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.9-0.7
+     c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.9,0.7c1,0,2.1-1.1,2.1-1.9C477.4,23.1,476.3,23.1,476.3,23.1z M469.9,20.2
+     c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4C469.7,19.9,469.8,20.1,469.9,20.2L469.9,20.2z"/>
+   <path class="st0" d="M481.7,11.8L481.7,11.8c0.2,0.2,0.6,0.5,1.1,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.1-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0l-0.1-0.1c-0.1,0-0.2,0-0.3,0c-0.1,0-0.9,0-1.2,0.6
+     c-0.3,0.5-0.1,1.1,0.1,1.4c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-1,1.2-1.1,2.5
+     c-0.1,0.5-0.1,0.8,0,1.1c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8
+     c0.1-0.9,1.7-2.4,2.6-3c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.4-0.2,0.5-0.3l0,0v0.1c-0.1,0.4-0.1,0.6-0.2,0.8
+     c-0.2,0.6-0.2,0.8-0.3,1.2c0,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0,1.5c0,0.1,0,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3
+     c0.5,0.4,0.9,0.6,1.2,0.8c0.6,0.4,0.9,0.5,1.6,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2
+     c0.8-0.5,1.5-1.1,1.5-1.1c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4,0-0.5c-0.1-0.1-0.2-0.2-0.3-0.2
+     c-1.1-0.5-2.1-0.8-2.1-0.8c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2
+     l0,0c0.1,0,0.3,0.1,0.5,0.1c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0,0.5,0,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5
+     c-0.2,0-0.3,0-0.5-0.1c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2l0,0c1.5,0.6,2.3,0.9,2.6,1
+     c0.3,0.1,0.6,0.1,1,0.4c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1h0.1l0,0c-0.1-0.1-0.2-0.3-0.4-0.4c-0.2-0.2-0.4-0.3-0.8-0.5
+     c-0.5-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1c0.8-1.4,1.2-2.1,1.4-2.4
+     c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.6-0.5c-0.6-0.4-1-0.7-1-0.7l0,0
+     c0,0-0.2-0.1-0.5-0.3h-0.1c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0C483.6,12,482.7,11.9,481.7,11.8z"/>
+   <path class="st0" d="M502.2,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1l0,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.1,0.8C501.5,17.9,501.9,18.2,502.2,18.7z M506.4,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c0,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.6,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.6-0.1s0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.5,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5c0,0,0,0,0.1,0c0.8-1,1.6-2.1,2.5-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.4-2.6c-0.5-0.7-1-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2v0.1
+     c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C506.6,14.4,506.6,13.7,506.4,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M510.2,16.5c0.4,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.1,0.1,0.2,0.1c0,0,0.3,0.3,0.3,0.7
+     s-0.4,0.8-0.4,0.8s-0.4,0.5-1.1,0.5s-1.3-0.9-1.3-0.9L510.2,16.5z M509.6,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4,0-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.2,0.8,0.1,1.5
+     c0,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C510.1,20,509.8,20,509.6,20z M515.1,23.1L515.1,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.5-0.5,0.8-1,1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.5-0.2-0.8-0.1s-0.5,0.2-0.6,0.4
+     c-0.2,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5s-0.2,0.2-0.3,0.3v0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1l0.1-0.1c0.1-0.1,0.2-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.5-0.1c0.1,0,0.1,0.2,0.2,0.2
+     c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9s-0.5,0.8-0.8,1l0,0c-0.4-0.3-0.8-0.7-1.2-1.2
+     c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,0.9-0.4,1.4-0.8c0.7-0.4,1.5-1,1.8-2c0-0.2,0.3-0.9,0-1.6
+     c0-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0,0-0.1c-0.2,0.2-0.4,0.5-0.7,0.7s-0.5,0.4-0.8,0.6l0,0
+     c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1c-0.3,0-0.5,0-0.8,0
+     l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3c-0.5,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1c-0.1-0.3-0.3-0.6-0.5-0.9
+     c-0.1-0.1-0.2-0.2-0.3-0.4c0,0-0.6,0-0.9,0.1c0,0-0.1,0.1-0.2,0.2s-0.1,0.1-0.1,0.2l0,0c0.1,0,0.2,0,0.4,0c0,0,0.2,0,0.3,0
+     c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4s0.2,0.5,0.3,0.6c0,0,0,0,0.1,0c0.1-0.5,0.2-1,0.3-1.3
+     c0.1-0.3,0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2l0,0c0.2,0.5,0.5,0.8,0.6,1.1c0.5,0.8,0.7,1.2,1.1,1.7
+     c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1c0.3-0.2,0.6-0.5,0.9-0.7
+     c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.8,0.7c1,0,2.1-1.1,2.1-1.9C516.2,23.1,515.1,23.1,515.1,23.1z M508.7,20.2
+     c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4C508.6,19.9,508.6,20.1,508.7,20.2L508.7,20.2z"/>
+   <path class="st0" d="M520.6,11.8L520.6,11.8c0.2,0.2,0.6,0.5,1.2,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.2-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.2,0-0.3,0s-0.9,0-1.2,0.6
+     c-0.3,0.5-0.1,1.1,0.1,1.4c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-1,1.2-1.2,2.5
+     c-0.1,0.5-0.1,0.8,0,1.1c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8
+     c0.1-0.9,1.7-2.4,2.6-3c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.3-0.2,0.5-0.3l0,0v0.1c-0.1,0.4-0.2,0.6-0.2,0.8
+     c-0.2,0.6-0.2,0.8-0.3,1.2c0,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0,1.5c0,0.1,0,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3
+     c0.5,0.4,0.9,0.6,1.2,0.8c0.6,0.4,0.9,0.5,1.7,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2
+     c0.8-0.5,1.5-1.1,1.5-1.1c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4,0-0.5c-0.1-0.1-0.2-0.2-0.3-0.2
+     c-1.1-0.5-2.1-0.8-2.1-0.8c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2
+     l0,0c0.1,0,0.3,0.1,0.5,0.1c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0,0.5,0,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5
+     c-0.2,0-0.3,0-0.5-0.1c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2l0,0c1.5,0.6,2.3,0.9,2.7,1
+     c0.3,0.1,0.6,0.1,1,0.4c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1c0,0,0.1,0,0.2,0l0,0c-0.1-0.1-0.2-0.3-0.4-0.4
+     c-0.2-0.2-0.4-0.3-0.8-0.5c-0.5-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1
+     c0.8-1.4,1.2-2.1,1.4-2.4c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.7-0.5
+     c-0.6-0.4-1-0.7-1-0.7l0,0c0,0-0.2-0.1-0.5-0.3c0,0-0.1,0-0.2,0c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0
+     C522.5,12,521.5,11.9,520.6,11.8z"/>
+   <path class="st0" d="M541.1,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1l0,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.2,0.8C540.3,17.9,540.7,18.2,541.1,18.7z M545.3,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c0,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.7,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.7-0.1c0.1-0.1,0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.5,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5c0,0,0,0,0.1,0c0.8-1,1.6-2.1,2.5-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.3-2.6c-0.5-0.7-1-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2v0.1
+     c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C545.5,14.4,545.4,13.7,545.3,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M549,16.5c0.3,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.2,0.1,0.2,0.1s0.3,0.3,0.3,0.7
+     s-0.3,0.8-0.3,0.8s-0.4,0.5-1.1,0.5S548,18,548,18L549,16.5z M548.5,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4,0-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.2,0.8,0.1,1.5
+     c0,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C548.9,20,548.6,20,548.5,20z M554,23.1L554,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.5-0.5,0.8-1,1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.5-0.2-0.8-0.1s-0.5,0.2-0.6,0.4
+     c-0.2,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5s-0.2,0.2-0.3,0.3v0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1l0.1-0.1c0.1-0.1,0.2-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.5-0.1c0.1,0,0.1,0.2,0.2,0.2
+     c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9s-0.5,0.8-0.8,1l0,0c-0.4-0.3-0.8-0.7-1.2-1.2
+     c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,1-0.4,1.5-0.8c0.7-0.4,1.5-1,1.8-2c0-0.2,0.3-0.9,0-1.6
+     c0-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0,0-0.1c-0.2,0.2-0.4,0.5-0.7,0.7s-0.5,0.4-0.8,0.6l0,0
+     c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1c-0.3,0-0.5,0-0.8,0
+     l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3c-0.5,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1c-0.1-0.3-0.3-0.6-0.5-0.9
+     c-0.1-0.1-0.2-0.2-0.3-0.4c0,0-0.6,0-0.8,0.1c0,0-0.1,0.1-0.2,0.2c-0.1,0.1-0.1,0.1-0.1,0.2l0,0c0.1,0,0.2,0,0.4,0
+     c0,0,0.2,0,0.3,0c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4c0.1,0.3,0.2,0.5,0.3,0.6c0,0,0,0,0.1,0
+     c0.1-0.5,0.2-1,0.3-1.3s0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2l0,0c0.2,0.5,0.5,0.8,0.6,1.1
+     c0.5,0.8,0.7,1.2,1.1,1.7c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1
+     c0.3-0.2,0.6-0.5,0.8-0.7c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.8,0.7c1,0,2.1-1.1,2.1-1.9C555.1,23.1,554,23.1,554,23.1
+     z M547.5,20.2c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4S547.5,20.1,547.5,20.2L547.5,20.2z"
+     />
+   <path class="st0" d="M559.4,11.8L559.4,11.8c0.2,0.2,0.6,0.5,1.2,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.2-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.2,0-0.3,0s-0.9,0-1.2,0.6
+     c-0.3,0.5-0.1,1.1,0.1,1.4c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-1,1.2-1.2,2.5
+     c-0.1,0.5-0.1,0.8,0,1.1c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8
+     c0.1-0.9,1.7-2.4,2.6-3c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.3-0.2,0.5-0.3l0,0v0.1c-0.1,0.4-0.2,0.6-0.2,0.8
+     c-0.2,0.6-0.2,0.8-0.3,1.2c0,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0,1.5c0,0.1,0,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3
+     c0.5,0.4,0.9,0.6,1.2,0.8c0.6,0.4,0.9,0.5,1.7,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2
+     c0.8-0.5,1.5-1.1,1.5-1.1c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4,0-0.5c-0.1-0.1-0.2-0.2-0.3-0.2
+     c-1.1-0.5-2.1-0.8-2.1-0.8c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2
+     l0,0c0.1,0,0.3,0.1,0.5,0.1c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0,0.5,0,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5
+     c-0.2,0-0.3,0-0.5-0.1c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2l0,0c1.5,0.6,2.3,0.9,2.7,1
+     c0.3,0.1,0.6,0.1,1,0.4c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1c0,0,0.1,0,0.2,0l0,0c-0.1-0.1-0.2-0.3-0.4-0.4
+     c-0.2-0.2-0.4-0.3-0.8-0.5c-0.5-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1
+     c0.8-1.4,1.2-2.1,1.4-2.4c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.7-0.5
+     c-0.6-0.4-1-0.7-1-0.7l0,0c0,0-0.2-0.1-0.5-0.3c0,0-0.1,0-0.2,0c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0
+     C561.3,12,560.4,11.9,559.4,11.8z"/>
+   <path class="st0" d="M579.9,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1l0,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.2,0.8C579.1,17.9,579.5,18.2,579.9,18.7z M584.1,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c0,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.7,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.7-0.1c0.1-0.1,0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.5,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5c0,0,0,0,0.1,0c0.8-1,1.6-2.1,2.5-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.3-2.6c-0.5-0.7-1-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2v0.1
+     c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C584.3,14.4,584.3,13.7,584.1,13z"/>
+ </g>
+ <g>
+   <path class="st0" d="M587.8,16.5c0.3,0,0.6,0,0.8,0.1c0.3,0.1,0.5,0.2,0.5,0.2c0.1,0,0.2,0.1,0.2,0.1s0.3,0.3,0.3,0.7
+     s-0.3,0.8-0.3,0.8s-0.4,0.5-1.1,0.5s-1.3-0.9-1.3-0.9L587.8,16.5z M587.3,20l-0.8-1.4l0,0l0,0c0.1,0.2,0.4,0.6,1,0.8
+     c1.1,0.4,2.1-0.8,2.1-0.8c0.6-0.7,0.6-1.6,0.6-1.9c0-0.2,0-0.4,0-0.5l0,0c0.1,0,0.2,0,0.3,0c0.1,0.3,0.2,0.8,0.1,1.5
+     c0,0.3-0.1,0.6-0.2,0.9c-0.5,0.8-1.5,1.1-2.3,1.3C587.7,20,587.5,20,587.3,20z M592.8,23.1L592.8,23.1c0,0,0.8,0.5,0.8,0.8
+     c0,0.4-1.3,0.8-1.5,0.8s-0.4-0.1-0.7-0.1c-0.3-0.1-0.5-0.2-0.6-0.3l0,0c0.5-0.5,0.8-1,1-1.3c0.8-1,0.9-1.4,1-1.7
+     c0,0,0.2-0.5,0.2-1.2c0-0.2,0-0.5-0.2-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.5-0.2-0.8-0.1s-0.5,0.2-0.6,0.4
+     c-0.2,0.1-0.3,0.3-0.3,0.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.2-0.2,0.4-0.3,0.5s-0.2,0.2-0.3,0.3v0.1c0,0,0,0.1,0.1,0.1
+     c0.1,0.1,0.2,0.1,0.3,0.1l0.1-0.1c0.1-0.1,0.2-0.2,0.2-0.3c0.1-0.1,0.2-0.3,0.4-0.4c0.1,0,0.3-0.2,0.5-0.1c0.1,0,0.1,0.2,0.2,0.2
+     c0,0.1,0,0.1,0,0.2c0,0.6-0.2,1.3-0.2,1.3c-0.1,0.2-0.2,0.5-0.4,0.9s-0.5,0.8-0.8,1l0,0c-0.4-0.3-0.8-0.7-1.2-1.2
+     c-0.6-0.7-1-1.4-1.3-1.9c0.2-0.1,0.6-0.2,1-0.4c0.4-0.2,1-0.4,1.5-0.8c0.7-0.4,1.5-1,1.8-2c0-0.2,0.3-0.9,0-1.6
+     c0-0.2-0.2-0.5-0.4-1.2c0-0.1-0.1-0.2-0.1-0.3c0,0,0,0,0-0.1c-0.2,0.2-0.4,0.5-0.7,0.7s-0.5,0.4-0.8,0.6l0,0
+     c-0.1-0.1-0.2-0.2-0.4-0.4c-0.1-0.1-0.2-0.1-0.3-0.1l0,0c0,0.1-0.1,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.1c-0.3,0-0.5,0-0.8,0
+     l1.5-2.5l-0.4-1.8h-0.1c-0.1,0.3-0.4,0.8-0.7,1.3c-0.5,0.8-0.8,1.3-1.3,2.2c-0.3,0.5-0.7,1.2-1.3,2.1c-0.1-0.3-0.3-0.6-0.5-0.9
+     c-0.1-0.1-0.2-0.2-0.3-0.4c0,0-0.6,0-0.8,0.1c0,0-0.1,0.1-0.2,0.2c-0.1,0.1-0.1,0.1-0.1,0.2l0,0c0.1,0,0.2,0,0.4,0
+     c0,0,0.2,0,0.3,0c0.3,0.1,0.7,0.5,1,1.2c-0.6,1-0.9,1.8-1.1,2.5c-0.4,1.5-0.2,2.1-0.1,2.4c0.1,0.3,0.2,0.5,0.3,0.6c0,0,0,0,0.1,0
+     c0.1-0.5,0.2-1,0.3-1.3s0.2-0.5,0.4-0.6c0.1-0.1,0.2-0.1,0.5-0.1c0.2,0,0.5-0.1,0.8-0.2l0,0c0.2,0.5,0.5,0.8,0.6,1.1
+     c0.5,0.8,0.7,1.2,1.1,1.7c0.3,0.4,0.6,0.7,0.9,0.9l0,0c-0.3,0.2-0.5,0.5-0.8,0.7c-0.4,0.4-0.9,0.7-1.3,1c0,0,0,0,0,0.1l0.8,0.1
+     c0.3-0.2,0.6-0.5,0.8-0.7c0.3-0.3,0.6-0.5,0.9-0.8l0,0c0.2,0.2,1.5,0.7,1.8,0.7c1,0,2.1-1.1,2.1-1.9
+     C593.9,23.1,592.8,23.1,592.8,23.1z M586.4,20.2c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.2,0-0.4,0.1l0.4-0.9l0,0c0,0.1,0.1,0.2,0.1,0.4
+     S586.3,20.1,586.4,20.2L586.4,20.2z"/>
+   <path class="st0" d="M598.2,11.8L598.2,11.8c0.2,0.2,0.6,0.5,1.2,0.7c1,0.4,1.8,0.6,2.7,0.7c0.4,0.1,1,0.1,1.7,0.1v0.1
+     c-0.2,0.7-0.7,1.7-1.5,2.6c-0.4,0.5-0.8,0.8-1.1,1.1c0,0,0,0-0.1,0c-0.2-0.2-0.5-0.5-0.8-0.8c-0.2-0.2-0.3-0.4-0.4-0.5l0,0
+     c0.1-0.1,0.3-0.2,0.5-0.4c0.2-0.1,0.5-0.2,0.7-0.3l0,0c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.2,0-0.3,0s-0.9,0-1.2,0.6
+     c-0.3,0.5-0.1,1.1,0.1,1.4c0.2,0.5,0.5,0.8,0.7,1l0,0c-0.2,0.1-0.4,0.4-0.7,0.6c-0.7,0.6-1,1-1.3,1.3s-1,1.2-1.2,2.5
+     c-0.1,0.5-0.1,0.8,0,1.1c0,0.2,0,0.4,0.1,0.6c0,0.1,0.1,0.3,0.1,0.4l0,0c0-0.1,0.1-0.2,0.1-0.4c0.1-0.4,0.1-0.7,0.1-0.8
+     c0.1-0.9,1.7-2.4,2.6-3c0.1,0,0.4-0.3,0.9-0.6c0.2-0.1,0.3-0.2,0.5-0.3l0,0v0.1c-0.1,0.4-0.2,0.6-0.2,0.8
+     c-0.2,0.6-0.2,0.8-0.3,1.2c0,0.3-0.1,0.5-0.1,0.8c0,0.1,0,0.7,0,1.5c0,0.1,0,0.4,0.2,0.6c0.1,0.1,0.2,0.2,0.2,0.3
+     c0.5,0.4,0.9,0.6,1.2,0.8c0.6,0.4,0.9,0.5,1.7,0.9c0,0,0.4,0.2,0.9,0.3c0.1,0,0.2,0,0.3,0c0.3,0,0.5-0.1,0.7-0.2
+     c0.8-0.5,1.5-1.1,1.5-1.1c0.1-0.1,0.6-0.7,1-1.4c0,0,0.2-0.3,0.2-0.8c0-0.2,0-0.4,0-0.5c-0.1-0.1-0.2-0.2-0.3-0.2
+     c-1.1-0.5-2.1-0.8-2.1-0.8c-0.1,0-0.3-0.1-0.5-0.1s-0.4-0.1-0.5-0.1s-0.2,0-0.4,0c-0.1,0-0.2,0.1-0.4,0.2c-0.1,0-0.2,0.1-0.4,0.2
+     l0,0c0.1,0,0.3,0.1,0.5,0.1c0.8,0.2,1,0.1,1.3,0.3c0.5,0.3,0.5,1,0.6,1.2c0,0.5,0,0.8-0.1,0.9c-0.3,1-1.4,1.5-2.3,1.5
+     c-0.2,0-0.3,0-0.5-0.1c-0.5-0.2-0.5-1.1-0.4-2.5c0-0.4,0-0.7,0.1-1.2c0.1-0.8,0.3-1.5,0.5-2l0,0c1.5,0.6,2.3,0.9,2.7,1
+     c0.3,0.1,0.6,0.1,1,0.4c0.1,0,0.2,0.1,0.5,0.2c0.1,0,0.2,0.1,0.3,0.1c0,0,0.1,0,0.2,0l0,0c-0.1-0.1-0.2-0.3-0.4-0.4
+     c-0.2-0.2-0.4-0.3-0.8-0.5c-0.5-0.2-0.7-0.4-0.9-0.5c-0.4-0.2-1.1-0.6-2.2-1.2c0-0.2,0-0.4,0.1-0.7c0.1-0.5,0.3-0.9,0.5-1.1
+     c0.8-1.4,1.2-2.1,1.4-2.4c0,0,0.1-0.1,0.5-0.9c0-0.1,0.1-0.2,0.1-0.4c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.4-0.3-0.7-0.5
+     c-0.6-0.4-1-0.7-1-0.7l0,0c0,0-0.2-0.1-0.5-0.3c0,0-0.1,0-0.2,0c-0.1,0-0.2,0.1-0.3,0.2c0,0-0.1,0-0.3,0.1c-0.2,0-1.3,0-2.7,0
+     C600.2,12,599.2,11.9,598.2,11.8z"/>
+   <path class="st0" d="M618.8,18.7c0.3,0.5,0.5,0.9,0.6,1.2c0,0,0,0,0,0.1c-0.2,0.2-0.4,0.6-0.7,1c-0.2,0.3-0.6,0.7-1,1.2
+     c-0.3,0.3-0.7,0.6-1.3,1l0,0c-0.5-0.4-1.1-0.9-1.8-1.5c-0.5-0.5-0.9-1.1-1.2-1.6c0,0,0,0,0-0.1c0.2-0.5,0.6-1.1,1.2-1.8
+     c0.6-0.7,1.2-1.2,1.7-1.5h0.1c0.5,0.3,0.9,0.6,1.2,0.8C618,17.9,618.4,18.2,618.8,18.7z M622.9,13c-0.1-0.4-0.2-0.7-0.3-1
+     c-0.1-0.1-0.2-0.1-0.4-0.1c0,0-0.2,0-0.5,0c-1.4,0.2-3.2,1.1-3.2,1.1c-0.9,0.5-1.7,0.8-2.1,1l0,0c-0.8-0.4-1.5-0.7-2-1
+     c0,0-1.5-0.7-3.4-1.1c-0.1,0-0.4-0.1-0.7,0c-0.1,0-0.3,0.1-0.3,0.1c-0.1,0.3-0.3,0.7-0.4,1.1c-0.1,0.6-0.2,1.2-0.2,1.6
+     c0.4,0.3,0.8,0.6,1.1,0.7c0.3,0.2,0.8,0.4,1.3,0.5c0.3,0,0.5,0,0.7-0.1c0.1-0.1,0.1-0.2,0.1-0.2c-0.2-0.1-0.7-0.2-1.1-0.5
+     c-0.5-0.4-0.7-0.8-0.8-1c0.3-0.1,1.4-0.4,2.6,0.1c0.8,0.3,1.3,0.9,1.5,1.2l0,0c-0.4,0.5-0.8,1-1.3,1.6c-0.6,0.9-1.1,1.8-1.4,2.5
+     l0,0c0.5,1.1,1.1,2.3,1.8,3.5c0.8,1.3,1.6,2.5,2.3,3.5c0,0,0,0,0.1,0c0.8-1,1.6-2.1,2.5-3.5c0.7-1.2,1.3-2.4,1.8-3.4l0,0
+     c-0.3-0.8-0.7-1.7-1.3-2.6c-0.5-0.7-1-1.3-1.4-1.8l0,0c0.3-0.1,0.7-0.4,1.2-0.6c1-0.5,1.2-0.5,1.4-0.5c0.3,0,0.8-0.1,1.5,0.2v0.1
+     c0,0.1-0.1,0.2-0.2,0.3c-0.1,0.2-0.3,0.4-0.7,0.7c-0.2,0.2-0.5,0.4-0.8,0.6v0.1c0.4,0,1-0.1,1.6-0.4c0.6-0.2,1-0.5,1.2-0.8
+     C623.1,14.4,623.1,13.7,622.9,13z"/>
+ </g>
+</g>
+</svg>
+</div>
+  <div class="fuentes">
+  <h5>Fuentes:</h5>
+    <a class="footer" href="https://shadowhunters.com/">Shadowhunters Official</a><br>
+    <a class="footer" href="https://shadowhunters.fandom.com/">Wiki Shadowhunters en Español</a><br>
+    <a class="footer" href="http://www.isfdb.org/cgi-bin/ea.cgi?10381">Speculative Fiction Database</a>
+  </div>
+  <div class="contacto">
+  <h5 id="Con">Contacto:</h5>
+    <a class="footer" href="github.com/rcio99">Rocío Córdova</a></p>
+  </div>
+
+<!--JS JAVASCRIPS-->
+
+  <!--Scroll Smooth-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+  
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+  
+        // Store hash
+        var hash = this.hash;
+  
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+  
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+
+  <!--Dropdown Button-->
+  <script>
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+
+  <!--Slide Carousel-->
+  <script>
+    var slideIndex = [1,8];
+    var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", "mySlides7", "mySlides8"]
+    showSlides(1, 0);
+    showSlides(1, 1);
+    showSlides(1, 2);
+    showSlides(1, 3);
+    showSlides(1, 4);
+    showSlides(1, 5);
+    showSlides(1, 6);
+    showSlides(1, 7);
+    showSlides(1, 8);
+  
+    function plusSlides(n, no) {
+     showSlides(slideIndex[no] += n, no);
+   }
+  
+   function showSlides(n, no) {
+    var i;
+    var x = document.getElementsByClassName(slideId[no]);
+    if (n > x.length) {slideIndex[no] = 1}    
+    if (n < 2) {slideIndex[no] = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    x[slideIndex[no]-1].style.display = "block";  
+    }
+   </script>
+
+
+</div>
+</body>
+</html>
